@@ -1,0 +1,108 @@
+.sect_10 {
+	background: url("../image/sect_10/sect_10_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	@include is-sp{
+		padding-top: 120px;
+    	margin-top: -120px;
+	}
+
+	&__store {
+		text-align: center;
+		padding: 100px 0 60px 0;
+
+		@include is-sp {
+			padding: 90px 20px 10px;
+		}
+
+		.l-wrap{
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+
+			@include is-max(1091px){
+				padding-left: 20px !important;
+				padding-right: 20px !important;
+			}
+
+			@include is-sp{
+				padding-left: 10px !important;
+				padding-right: 10px !important;
+
+				.c-card_boxes_pc{
+					display: block !important;
+
+					.box{
+						&:nth-child(2n+2){
+							margin-left: 0 !important;
+							margin-bottom: 50px;
+						}
+
+						&:last-child{
+							padding-top: 0 !important;
+						}
+					}
+
+
+				}
+			}
+		}
+	}
+
+	&__title {
+		font-family: "ten-mincho";
+		font-weight: 400;
+		color: #c60000;
+		padding: 0 0 30px 0;
+
+		@include font-line(76);
+
+		@include is-sp {
+			font-size: 60px;
+			padding: 0;
+
+			@include font-line(60);
+		}
+	}
+
+	&__desc {
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 400;
+		padding-bottom: 80px;
+
+		@include font-line(18, 31.5);
+
+		@include is-max(1091px){
+			padding-left: 20px !important;
+			padding-right: 20px !important;
+		}
+
+		@include is-sp {
+			text-align: left;
+			font-size: 18px;
+			padding: 0 10px;
+
+			@include font-line(18);
+		}
+	}
+
+	.title {
+		font-size: 26px;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 700;
+		text-align: center;
+		color: #c60000;
+		padding: 40px 0 0 0;
+
+		@include font-line(26);
+	}
+
+	.desc {
+		font-size: 18px;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 400;
+		text-align: left;
+
+		@include font-line(18);
+	}
+}

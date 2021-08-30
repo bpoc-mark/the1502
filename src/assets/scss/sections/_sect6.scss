@@ -1,0 +1,22 @@
+// Section 6 //
+.sect_6 {
+
+	.mapouter {
+		max-width: 100%;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+
+		.gmap_canvas{
+			margin: 0;
+			padding: 0;
+			iframe{
+				margin: 0;
+			}
+		}
+	}
+
+	img {
+		width: 100%;
+	}
+}

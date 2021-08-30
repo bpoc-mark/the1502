@@ -1,0 +1,171 @@
+.c-contact {
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+
+	@include is-sp {
+		display: block;
+	}
+
+	&__item-1 {
+		width: 33.3%;
+		background: black;
+		padding: 20px 0;
+
+		@include is-max(901px){
+			width: 50%;
+		}
+		
+		@include is-sp {
+			width: 100%;
+			display: block;
+		}
+
+		@include is-pc {
+			pointer-events: none;
+		}
+
+		.tel {
+			display: flex;
+			justify-content: center;
+
+			.phone_icon {
+				width: 12%;
+				padding-right: 10px;
+			}
+
+			.phone_num {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #fff;
+
+				@include font-line(36);
+			}
+		}
+
+		.time_ttl {
+			font-size: 16px;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 400;
+			color: #fff;
+
+			@include font-line(16);
+		}
+
+		.time {
+			font-size: 16px;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 400;
+			color: #fff;
+
+			@include font-line(16);
+		}
+	}
+	&__item-2 {
+		width: 33.3%;
+		background: url("../image/sect_7/form_bg.jpg");
+		background-size: cover;
+		padding: 20px 0;
+
+		@include is-max(901px){
+			width: 50%;
+		}
+
+		@include is-sp {
+			width: 100%;
+		}
+
+		.todo {
+			display: flex;
+			justify-content: center;
+
+			.list_icon {
+				width: 12%;
+				padding-right: 10px;
+			}
+
+			.todo_ttl {
+				font-size: 32px;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #fff;
+
+				@include font-line(32);
+			}
+		}
+
+		.todo_desc {
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 400;
+			color: #fff;
+
+			@include font-line(15);
+		}
+	}
+	&__item-3 {
+		width: 33.3%;
+		background: #009600;
+		padding: 20px 0;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		@include is-max(901px){
+			width: 100%;
+			justify-content: center;
+		}
+
+		@include is-sp {
+			width: 100%;
+			display: block;
+		}
+		
+		.row-1 {
+			width: 80%;
+			text-align: center;
+
+			@include is-max(901px){
+				width: unset;
+				margin-right: 20px;
+			}
+
+			@include is-sp {
+				width: 100%;
+				text-align: center;
+			}
+
+			.line_ttl {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #fff;
+
+				@include font-line(18);
+			}
+
+			.line_desc {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #fff;
+
+				@include font-line(25);
+			}
+		}
+
+		.row-2 {
+			width: 25%;
+
+			@include is-max(901px){
+				width: unset;
+			}
+			@include is-sp {
+				width: 100%;
+
+				img {
+					display: none;
+				}
+			}
+		}
+	}
+}

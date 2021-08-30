@@ -1,0 +1,60 @@
+// Section 4 //
+.sect_4 {
+	.l-insta {
+
+		&__inner {
+			display: flex;
+
+			@include is-sp {
+				column-count: 2;
+				display: flow-root;
+				column-gap: 0;
+			}
+		}
+
+		.border {
+			border: 1px solid #DBDBDB;
+		}
+
+		&__content-1 {
+			width: 100%;
+
+			@include is-sp {
+				width: 100%;
+
+				&:nth-child(n+3){
+					display: none;
+				}
+			}
+
+			iframe {
+				min-width: 100% !important;
+				width: 100% !important;
+				margin: 0 !important;
+			}
+		}
+
+		&__offcl-inst {
+			background-color: #C60000;
+			text-align: center;
+
+			.off-text {
+				@include font-line(16);
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				text-align: center;
+			}
+
+			.off-text-primary {
+				color: #fff;
+			}
+
+			.insta-pic {
+				width: 26px;
+			}
+		}
+
+
+
+	}
+}

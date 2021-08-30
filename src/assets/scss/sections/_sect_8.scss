@@ -1,0 +1,132 @@
+.sect_8 {
+	background: url("../image/sect_8/sect_8_bg.png");
+	padding-bottom: 70px;
+	background-repeat: no-repeat;
+	background-size: 101% 100%;
+	background-position: bottom center;
+
+	@include is-sp{
+		padding-top: 150px;
+    	margin-top: -150px;
+	}
+
+	@include is-max(951px) {
+		background: url("../image/sect_8/sect_8_bg1.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.l-wrap{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+
+		@include is-max(1091px) {
+			padding-left: 20px !important;
+			padding-right: 20px !important;
+		}
+	}
+
+	&__content {
+		text-align: center;
+
+		@include is-sp {
+			padding: 0 10px;
+		}
+	}
+	&__title {
+		font-family: "ten-mincho";
+		font-weight: 400;
+		color: #c60000;
+		padding-top: 113px;
+		padding-bottom: 20px;
+		letter-spacing: .1em;
+
+		@include font-line(76);
+
+		@include is-sp {
+			font-size: 44px;
+			@include font-line(44);
+			padding-top: 65px;
+		}
+	}
+
+	&__compute {
+		text-align: center;
+
+		@include is-sp {
+			padding: 40px 0 0 0;
+		}
+
+		&__title {
+			font-family: "Noto Serif JP";
+			font-weight: 700;
+			color: #c60000;
+			padding-bottom: 3px;
+
+			@include font-line(37);
+
+			@include is-sp {
+				@include font-line(28);
+			}
+		}
+
+		&__men {
+			font-family: "Noto Serif JP";
+			font-weight: 600;
+			@include font-line(30);
+
+			@include is-sp {
+				@include font-line(26);
+			}
+
+			span{
+				font-family: "Noto Serif JP";
+				font-weight: 600;
+				@include font-line(34);
+
+				@include is-sp {
+					@include font-line(26);
+				}
+			}
+		}
+
+		&__women {
+			font-family: "Noto Serif JP";
+			font-weight: 600;
+			@include font-line(30);
+
+			@include is-sp {
+				@include font-line(26);
+			}
+
+			span{
+				font-family: "Noto Serif JP";
+				font-weight: 600;
+				@include font-line(34);
+
+				@include is-sp {
+					@include font-line(26);
+				}
+			}
+		}
+	}
+
+	.course_menu {
+		&__title {
+			font-size: 76px;
+			font-family: "ten-mincho";
+			font-weight: 400;
+			color: #c60000;
+			padding-top: 40px;
+			padding-bottom: 20px;
+
+			@include font-line(76);
+
+			@include is-sp {
+				font-size: 57px;
+
+				@include font-line(57);
+			}
+		}
+	}
+}

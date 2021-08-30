@@ -1,0 +1,215 @@
+.sect_11 {
+	text-align: center;
+	
+	.l-wrap{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+
+		@include is-max(1091px){
+			padding-left: 30px !important;
+			padding-right: 30px !important;
+		}
+	}
+
+	&__faq {
+		padding: 115px 0 0 0;
+
+		@include is-sp{
+			padding: 75px 0 0 0;
+		}
+	}
+
+	&__title {
+		font-size: 38px;
+		font-family: "A1明朝";
+		color: #c60000;
+		letter-spacing: 25px;
+		padding-bottom: 80px;
+
+		@include font-line(38);
+
+		@include is-sp {
+			letter-spacing: 10px;
+			padding-bottom: 60px;
+		}
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+
+		@include is-sp {
+			display: block;
+			padding: 0;
+		}
+
+		.row-1 {
+			width: 45.87%;
+			text-align: left;
+
+			@include is-sp {
+				width: 100%;
+			}
+
+			&__ques {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #c60000;
+				padding: 0 0 0 40px;
+				@include font-line(26);
+
+				@include is-sp{
+					padding: 0;
+				}
+			}
+
+			&__ans {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 400;
+				padding: 15px 20px 57px 40px;
+				border-bottom: 2px dotted #000;
+
+				@include font-line(18);
+
+				@include is-sp{
+					padding: 30px 0 50px 0;
+				}
+			}
+
+			.col-1 {
+				padding: 60px 0 0 0;
+			}
+
+			.col-1-pc {
+				padding: 60px 0 0 0;
+				display: block;
+
+				@include is-sp {
+					display: none;
+				}
+			}
+
+			.col-1-sp {
+				padding: 60px 0 0 0;
+				display: none;
+
+				@include is-sp {
+					display: block;
+				}
+			}
+		}
+
+		.row-2 {
+			width: 45.87%;
+			text-align: left;
+
+			@include is-sp {
+				width: 100%;
+			}
+
+			&__ques {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #c60000;
+				padding: 0 0 0 40px;
+
+				@include font-line(26);
+
+				@include is-sp{
+					padding: 0;
+				}
+			}
+
+			&__ans {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 400;
+				padding: 15px 20px 57px 40px;
+				border-bottom: 2px dotted #000;
+
+				@include font-line(18);
+
+				@include is-sp{
+					padding: 30px 0 50px 0;
+				}
+			}
+
+			&__ans1 {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 400;
+				padding: 15px 20px 27px 40px;
+
+				@include font-line(18);
+
+				@include is-sp{
+					padding: 30px 0 50px 0;
+				}
+			}
+
+			.col-2 {
+				padding: 60px 0 0 0;
+
+				&:last-child {
+					padding-bottom: 60px;
+					border-bottom: 2px dotted #000;
+				}
+			}
+
+			.insta_btn {
+				display: flex;
+				background: #c60000;
+				color: #fff;
+				width: 100%;
+				padding: 14px 0;
+				justify-content: center;
+				align-items: center;
+
+				.insta_img {
+					width: 10%;
+					padding-right: 10px;
+				}
+			}
+		}
+
+		.row-2-sp {
+			display: none;
+		}
+
+		.row-2-pc {
+			display: block;
+
+			@include is-sp {
+				display: none;
+			}
+		}
+	}
+
+	.last_ques {
+		padding: 60px 0;
+		width: 65%;
+		text-align: left;
+		margin: 0 auto;
+
+		@include is-sp {
+			width: 100%;
+			padding: 60px 5px;
+		}
+
+		&__title {
+			font-size: 26px;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 700;
+			color: #c60000;
+			padding-bottom: 24px;
+
+			@include font-line(26);
+		}
+
+		&__ans {
+			font-size: 18px;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 400;
+
+			@include font-line(18);
+		}
+	}
+}

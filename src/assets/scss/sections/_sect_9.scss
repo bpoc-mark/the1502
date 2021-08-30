@@ -1,0 +1,38 @@
+.sect_9 {
+	.contact_details {
+		position: relative;
+
+		.bg_color {
+			&::before {
+				content: "";
+				display: block;
+				width: 50%;
+				height: 100%;
+				background-color: #000;
+				position: absolute;
+				top: 0%;
+				left: 0;
+				z-index: -1;
+			}
+
+			&::after {
+				content: "";
+				display: block;
+				width: 50%;
+				height: 100%;
+				background-color: #009600;
+				position: absolute;
+				top: 0%;
+				right: 0;
+				z-index: -1;
+			}
+
+			.l-wrap {
+				@include is-max(901px){
+					padding-left: 0 !important;
+					padding-right: 0 !important;
+				}
+			}
+		}
+	}
+}
