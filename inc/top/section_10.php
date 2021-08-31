@@ -7,21 +7,21 @@
         <div class="l-wrap">
             <div class="c-card_boxes_pc">
                 <div class="box">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_1.jpeg" alt="">
-                    <p class="title">カウンター 全8席</p>
-                    <p class="desc">目の前で調理が見えるカウンター席。落ち着いた雰囲気でゆったりお食事をお楽しみ頂けます。</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_1.png" alt="">
+                    <p class="title">カウンター 全6席</p>
+                    <p class="desc">目の前で調理が見えるカウンター席。お一人様はもちろん、デートの際にもおすすめです。</p>
                 </div>
 
                 <div class="box">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_2.jpeg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_2.png" alt="">
                     <p class="title">テーブル 全6卓</p>
-                    <p class="desc">目の前で調理が見えるカウンター席。落ち着いた雰囲気でゆったりお食事をお楽しみ頂けます。</p>
+                    <p class="desc">2名様～4名様で利用可能。会社の飲み会、ご友人との飲み会はもちろん女子会などにもどうぞ！</p>
                 </div>
 
                 <div class="box">
-                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_3.jpeg" alt="">
-                    <p class="title">掘りごたつ 全6卓</p>
-                    <p class="desc">目の前で調理が見えるカウンター席。落ち着いた雰囲気でゆったりお食事をお楽しみ頂けます。</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_10/sect_10_img_3.png" alt="">
+                    <p class="title"></p>
+                    <p class="desc">駅近で終電ギリギリまで料理とお酒をお楽しみいただけます♪各種ご宴会はもちろんデート利用にもおすすめです</p>
                 </div>
             </div>
         </div>

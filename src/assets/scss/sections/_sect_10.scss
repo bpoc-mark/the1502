@@ -93,8 +93,11 @@
 		text-align: center;
 		color: #c60000;
 		padding: 40px 0 0 0;
-
 		@include font-line(26);
+
+		@include is-sp {
+			@include font-line(32);
+		}
 	}
 
 	.desc {
