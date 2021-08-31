@@ -362,6 +362,14 @@
 			}
 			
 		}
+
+		.box_content {
+			text-align: left;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 400;
+
+			@include font-line(18);
+		}
 	
 		.price {
 			text-align: right;
@@ -473,6 +481,14 @@
 				@include font-line(20);
 			}
 			
+		}
+
+		.box_content {
+			text-align: left;
+			font-family: 'Noto Sans JP', sans-serif;
+			font-weight: 400;
+			padding-left: 30px;
+			@include font-line(18);
 		}
 
 		.price {

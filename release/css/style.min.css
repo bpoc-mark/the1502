@@ -126,6 +126,7 @@ template{display:none}
 .c-card_boxes_pc .box__dish-title{font-family:'Noto Sans JP',sans-serif;font-weight:700;padding:20px 0 0 0;font-size:1.125rem}
 .c-card_boxes_pc .box__dish-title span{font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:1rem;letter-spacing:-1.5px}
 .c-card_boxes_pc .box .desc p{text-align:left;font-family:'Noto Sans JP',sans-serif;font-weight:700;font-size:1.25rem}
+.c-card_boxes_pc .box .box_content{text-align:left;font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:1.125rem}
 .c-card_boxes_pc .box .price{text-align:right;font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:1.125rem}
 .c-card_boxes_pc .box .btn{background:0;border:1px solid #c60000;color:#c60000;font-family:'Noto Sans JP',sans-serif;font-weight:700;width:100%;padding:12px 0;margin-top:15px;font-size:1rem}
 .c-card_boxes_sp{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
@@ -135,6 +136,7 @@ template{display:none}
 .c-card_boxes_sp .box__dish-title-2 span{font-size:14px;font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:1rem}
 .c-card_boxes_sp .box .desc{padding:0 40px 0}
 .c-card_boxes_sp .box .desc p{text-align:left;font-family:'Noto Sans JP',sans-serif;font-weight:700;font-size:1.25rem}
+.c-card_boxes_sp .box .box_content{text-align:left;font-family:'Noto Sans JP',sans-serif;font-weight:400;padding-left:30px;font-size:1.125rem}
 .c-card_boxes_sp .box .price{text-align:right;font-size:18px;font-family:'Noto Sans JP',sans-serif;font-weight:400;padding-bottom:17px;font-size:1.125rem}
 .c-card_boxes_sp .box .btn{background:0;border:1px solid #c60000;color:#c60000;font-family:'Noto Sans JP',sans-serif;font-weight:700;font-size:16px;width:100%;padding:12px 0;font-size:1rem}
 .c-contact{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0 auto;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;text-align:center;-ms-flex-wrap:wrap;flex-wrap:wrap}

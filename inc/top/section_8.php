@@ -27,6 +27,9 @@
                             <p class="box__dish-title">
                                 <?php the_title(); ?>
                             </p>
+                            <div class="box_content">
+                                <?php the_content(); ?>
+                            </div>
                             <p class="price">
                                 <?php the_field('price'); ?>
                             </p>
@@ -59,6 +62,9 @@
                         <div class="box">
                             <?php the_post_thumbnail(); ?>
                             <p class="box__dish-title"><?php the_title(); ?></p>
+                            <div class="box_content">
+                                <?php the_content(); ?>
+                            </div>
                             <p class="price">
                                 <?php the_field('price'); ?>
                             </p>
