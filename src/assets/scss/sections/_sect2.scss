@@ -53,6 +53,14 @@
 			font-family: 'Noto Sans JP', sans-serif;
 			font-weight: 400;
 			text-align: justify;
+
+			span {
+				color: #ffe600;
+
+				@include is-sp {
+					color: #fff;
+				}
+			}
 		}
 
 		.text-white {
