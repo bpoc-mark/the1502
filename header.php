@@ -30,7 +30,15 @@
 
     <main>
         <div class="page__header">
-            <div class="page__top isHome">
+            <?php
+            $post_7 = get_post(7);
+            $title = $post_7->the_post_thumbnail;
+            $imgurl = null;
+            if (has_post_thumbnail($title)) {
+                $imgurl = wp_get_attachment_url(get_post_thumbnail_id($title));
+            }
+            ?>
+            <div class="page__top isHome" style="background: url('<?php echo $imgurl; ?>') !important; background-size: cover !important;background-position: center center;background-repeat: no-repeat;">
                 <div class="page__wrapper">
                     <div class="l-wrap">
                         <div class="page__info">
@@ -42,7 +50,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero_cta" >
+                    <div class="hero_cta">
                         <div class="hero_cta__cont" id="hero_cta">
                             <a class="item_01" href="https://www.tablecheck.com/shops/funeya-kusatsu/reserve" target="_blank">
                                 <div class="item_icn">
