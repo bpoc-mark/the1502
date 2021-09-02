@@ -1,7 +1,7 @@
 <section class="sect_8" id="sect_8">
     <div class="l-wrap">
         <div class="sect_8__content">
-            <h3 class="sect_8__title">おすすめのお料理</h3>
+            <h3 class="sect_8__title">季節のおすすめ</h3>
 
             <!-- CARD PC -->
             <div class="c-card_boxes_pc">
@@ -12,7 +12,7 @@
                     'post_type' => 'post',
                     'post_status' => 'publish',
                     'posts_per_page' => 3,
-                    'category_name' => 'おすすめのお料理',
+                    'category_name' => '季節のおすすめ',
                     'paged' => $paged,
                 );
 
@@ -27,6 +27,9 @@
                             <p class="box__dish-title">
                                 <?php the_title(); ?>
                             </p>
+                            <div class="box_content">
+                                <?php the_content(); ?>
+                            </div>
                             <p class="price">
                                 <?php the_field('price'); ?>
                             </p>
@@ -46,7 +49,7 @@
                     'post_type' => 'post',
                     'post_status' => 'publish',
                     'posts_per_page' => 3,
-                    'category_name' => 'おすすめのお料理',
+                    'category_name' => '季節のおすすめ',
                     'paged' => $paged,
                 );
 
@@ -59,6 +62,9 @@
                         <div class="box">
                             <?php the_post_thumbnail(); ?>
                             <p class="box__dish-title"><?php the_title(); ?></p>
+                            <div class="box_content">
+                                <?php the_content(); ?>
+                            </div>
                             <p class="price">
                                 <?php the_field('price'); ?>
                             </p>
