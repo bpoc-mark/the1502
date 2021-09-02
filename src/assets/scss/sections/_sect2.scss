@@ -21,7 +21,7 @@
 		background-size: cover;
 		text-align: center;
 		position: relative;
-		background-color: #693200;
+		background-color: #910100;
 		display: none;
 
 		@include is-sp {
@@ -57,9 +57,9 @@
 			span {
 				color: #ffe600;
 
-				@include is-sp {
-					color: #fff;
-				}
+				// @include is-sp {
+				// 	color: #fff;
+				// }
 			}
 		}
 

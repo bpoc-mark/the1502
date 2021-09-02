@@ -673,7 +673,7 @@ template{display:none}
 .sect_1__center--frame .br-pc{display:none}
 .sect_1__center--frame .br-sp{display:none}
 .sect_2 .bg_overlay-pc{padding:30px 0 30px 0;background-image:url("../image/sect_2/overlay_background.png");background-repeat:no-repeat;background-size:cover;background-position:center center;text-align:center;position:relative;display:none}
-.sect_2 .bg_overlay-sp{padding:30px 0 30px 0;background-repeat:no-repeat;background-size:cover;text-align:center;position:relative;background-color:#693200;display:none}
+.sect_2 .bg_overlay-sp{padding:30px 0 30px 0;background-repeat:no-repeat;background-size:cover;text-align:center;position:relative;background-color:#910100;display:none}
 .sect_2__title .c-heading-title{font-size:1.875rem;font-family:'A1明朝'}
 .sect_2__title .c-heading-title-white{color:#fff}
 .sect_2__content{margin:0 auto;max-width:561px}
@@ -1184,7 +1184,6 @@ template{display:none}
 .sect_1__center--frame .br-sp{display:block}
 .sect_2 .bg_overlay-sp{display:block}
 .sect_2__title .c-heading-title{letter-spacing:0}
-.sect_2__content .text span{color:#fff}
 .sect_2__image-sp{display:block}
 .sect_2__image-sp .upper-image{width:100%}
 .sect_3__inner{border-left:0;border-right:0}
@@ -1206,7 +1205,7 @@ template{display:none}
 .sect_5 .c_address__heading .c-heading-title{letter-spacing:-3px}
 .sect_5 .c_address__heading .c-heading-primary{padding-left:30px;padding-right:30px}
 .sect_5 .c_address__c-description{padding-left:30px;padding-right:30px}
-.sect_5 .c_address .srvc_1{width:50%}
+.sect_5 .c_address .srvc_1{width:100%}
 .sect_5 .c_address .lef-pic-sp{display:-webkit-box;display:-ms-flexbox;display:flex}
 .sect_5 .c_address__boxes{-webkit-column-count:unset;-moz-column-count:unset;column-count:unset;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-left:30px;padding-right:30px;-webkit-column-gap:unset;-moz-column-gap:unset;column-gap:unset}
 .sect_5 .c_address__boxes .srvc_1-s{width:100%}
