@@ -14,7 +14,7 @@
 		background: black;
 		padding: 20px 0;
 
-		@include is-max(901px){
+		@include is-max(990px){
 			width: 50%;
 		}
 		
@@ -34,6 +34,10 @@
 			.phone_icon {
 				width: 12%;
 				padding-right: 10px;
+
+				@include is-sp {
+					width: 46px;
+				}
 			}
 
 			.phone_num {
@@ -69,7 +73,7 @@
 		background-size: cover;
 		padding: 20px 0;
 
-		@include is-max(901px){
+		@include is-max(990px){
 			width: 50%;
 		}
 
@@ -84,6 +88,10 @@
 			.list_icon {
 				width: 12%;
 				padding-right: 10px;
+
+				@include is-sp {
+					width: 46px;
+				}
 			}
 
 			.todo_ttl {
@@ -102,6 +110,14 @@
 			color: #fff;
 
 			@include font-line(15);
+
+			@include is-max(1043px) {
+				@include font-line(14);
+			}
+
+			@include is-max(990px) {
+				@include font-line(15);
+			}
 		}
 	}
 	&__item-3 {
@@ -112,7 +128,7 @@
 		align-items: center;
 		text-align: center;
 
-		@include is-max(901px){
+		@include is-max(990px){
 			width: 100%;
 			justify-content: center;
 		}
@@ -126,7 +142,7 @@
 			width: 80%;
 			text-align: center;
 
-			@include is-max(901px){
+			@include is-max(990px){
 				width: unset;
 				margin-right: 20px;
 			}
@@ -135,6 +151,38 @@
 				width: 100%;
 				text-align: center;
 			}
+
+			.line-flex {
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+	
+				img {
+					width: 33px;
+
+					@include is-sp {
+						width: unset;
+						padding-right: 10px;
+					}
+				}
+	
+				p {
+					@include font-line(16);
+
+					@include is-max(1043px) {
+						@include font-line(15);
+					}
+
+					@include is-max(990px) {
+						@include font-line(16);
+					}
+				}
+
+				@include is-sp {
+					justify-content: center;
+				}
+			}
+	
 
 			.line_ttl {
 				font-family: 'Noto Sans JP', sans-serif;
@@ -150,13 +198,37 @@
 				color: #fff;
 
 				@include font-line(25);
+
+				@include is-max(1043px) {
+					@include font-line(23);
+				}
+				
+				@include is-max(990px) {
+					@include font-line(25);
+				}
+			}
+
+			.line_desc_2 {
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				color: #F5C814;
+				padding-left: 8px;
+				@include font-line(18);
+
+				@include is-max(1043px) {
+					@include font-line(16);
+				}
+
+				@include is-max(990px) {
+					@include font-line(18);
+				}
 			}
 		}
 
 		.row-2 {
-			width: 25%;
+			width: 23%;
 
-			@include is-max(901px){
+			@include is-max(990px){
 				width: unset;
 			}
 			@include is-sp {

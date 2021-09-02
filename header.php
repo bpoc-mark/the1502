@@ -127,7 +127,7 @@
                     </div>
                     <div class="p-header__right">
                         <p>
-                            <span>TEL.</span>077-569-2019
+                            <span>TEL.</span>050-5258-8679
                         </p>
                     </div>
                 </div>

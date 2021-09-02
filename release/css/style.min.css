@@ -153,9 +153,13 @@ template{display:none}
 .c-contact__item-2 .todo_desc{font-family:'Noto Sans JP',sans-serif;font-weight:400;color:#fff;font-size:.9375rem}
 .c-contact__item-3{width:33.3%;background:#009600;padding:20px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center}
 .c-contact__item-3 .row-1{width:80%;text-align:center}
+.c-contact__item-3 .row-1 .line-flex{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.c-contact__item-3 .row-1 .line-flex img{width:33px}
+.c-contact__item-3 .row-1 .line-flex p{font-size:1rem}
 .c-contact__item-3 .row-1 .line_ttl{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#fff;font-size:1.125rem}
 .c-contact__item-3 .row-1 .line_desc{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#fff;font-size:1.5625rem}
-.c-contact__item-3 .row-2{width:25%}
+.c-contact__item-3 .row-1 .line_desc_2{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#f5c814;padding-left:8px;font-size:1.125rem}
+.c-contact__item-3 .row-2{width:23%}
 .c-heading01{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0 0 8px;font-weight:bold;color:#000;letter-spacing:0;text-align:center;position:relative;border-bottom:solid 2px #000}
 .c-heading01:before{content:'';background:#000}
 .c-heading01--nobefore:before{display:none}
@@ -836,6 +840,22 @@ template{display:none}
 .sect_8 .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_1 .l-wrap{padding-left:20px !important;padding-right:20px !important}
 .sect_5 .l-wrap{padding-left:20px !important;padding-right:20px !important}
+}@media only screen and (max-width:1043px){.c-contact__item-2 .todo_desc{font-size:.875rem}
+.c-contact__item-3 .row-1 .line-flex p{font-size:.9375rem}
+.c-contact__item-3 .row-1 .line_desc{font-size:1.4375rem}
+.c-contact__item-3 .row-1 .line_desc_2{font-size:1rem}
+}@media only screen and (max-width:990px){.c-contact__item-1{width:50%}
+.c-contact__item-2{width:50%}
+.c-contact__item-2 .todo_desc{font-size:.9375rem}
+.c-contact__item-3{width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.c-contact__item-3 .row-1{width:unset;margin-right:20px}
+.c-contact__item-3 .row-1 .line-flex p{font-size:1rem}
+.c-contact__item-3 .row-1 .line_desc{font-size:1.5625rem}
+.c-contact__item-3 .row-1 .line_desc_2{font-size:1.125rem}
+.c-contact__item-3 .row-2{width:unset}
+.sect_12 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
+.sect_7 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
+.sect_9 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
 }@media only screen and (max-width:951px){.c-card_boxes_pc .box{width:48%}
 .c-card_boxes_pc .box:not(:first-child){margin-left:0}
 .c-card_boxes_pc .box:nth-child(2n+2){margin-left:4%;margin-bottom:50px}
@@ -846,14 +866,6 @@ template{display:none}
 .nav__header .p-header__middle .l-navigation .p-navigation__link:not(:last-child) a{border-right:0}
 .sticky{position:unset;height:102px}
 .sect_1{margin-top:0}
-}@media only screen and (max-width:901px){.c-contact__item-1{width:50%}
-.c-contact__item-2{width:50%}
-.c-contact__item-3{width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.c-contact__item-3 .row-1{width:unset;margin-right:20px}
-.c-contact__item-3 .row-2{width:unset}
-.sect_12 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
-.sect_7 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
-.sect_9 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
 }@media only screen and (max-width:825px){.page__info .info_txt h2 br{display:block}
 }@media only screen and (max-width:751px){.sticky{height:112px}
 }@media only screen and (max-width:750px){.l-container{display:block}
@@ -894,9 +906,13 @@ template{display:none}
 .c-card_boxes_sp .box .btn{width:90%}
 .c-contact{display:block}
 .c-contact__item-1{width:100%;display:block}
+.c-contact__item-1 .tel .phone_icon{width:46px}
 .c-contact__item-2{width:100%}
+.c-contact__item-2 .todo .list_icon{width:46px}
 .c-contact__item-3{width:100%;display:block}
 .c-contact__item-3 .row-1{width:100%;text-align:center}
+.c-contact__item-3 .row-1 .line-flex img{width:unset;padding-right:10px}
+.c-contact__item-3 .row-1 .line-flex{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .c-contact__item-3 .row-2{width:100%}
 .c-contact__item-3 .row-2 img{display:none}
 .c-heading01{margin:0 auto 20px;font-size:1.3125rem;line-height:1}
