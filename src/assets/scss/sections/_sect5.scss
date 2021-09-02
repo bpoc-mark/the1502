@@ -3,9 +3,9 @@
 	padding: 0 0 50px 0;
 	position: relative;
 
-	@include is-sp{
+	@include is-sp {
 		padding-top: 150px;
-    	margin-top: -150px;
+		margin-top: -150px;
 	}
 
 	.up-right {
@@ -23,7 +23,7 @@
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 
-		@include is-max(1091px){
+		@include is-max(1091px) {
 			padding-left: 20px !important;
 			padding-right: 20px !important;
 		}
@@ -163,8 +163,8 @@
 				}
 			}
 
-			.pic-1{
-				@include is-sp{
+			.pic-1 {
+				@include is-sp {
 					width: 47%;
 				}
 			}
@@ -174,6 +174,121 @@
 				font-family: 'Noto Sans JP', sans-serif;
 				font-weight: 400;
 				padding: 10px 0;
+				height: 100px;
+
+				@include is-sp {
+					height: 145px;
+				}
+
+				@include is-max(366px) {
+					height: 170px;
+				}
+			}
+
+			.arrow-1 {
+				margin-bottom: 70px;
+
+				@include is-max(400px) {
+					top: 60% !important;
+				}
+
+				@include is-sp {
+					position: absolute;
+					left: 2%;
+					top: 65%;
+					width: 3%;
+				}
+			}
+
+			.arrow-2 {
+				margin-bottom: 70px;
+
+				@include is-max(400px) {
+					top: 14% !important;
+				}
+
+				@include is-sp {
+					position: absolute;
+					right: 48%;
+					top: 18%;
+					width: 3%;
+				}
+			}
+
+			.arrow-3 {
+				margin-bottom: 70px;
+
+				@include is-max(400px) {
+					top: 60% !important;
+				}
+
+				@include is-sp {
+					position: absolute;
+					bottom: 32%;
+					right: 48%;
+					width: 3%;
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		&__boxes2 {
+			max-width: 970px;
+			margin: 0 auto;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			margin-top: 60px;
+			padding-left: 10px;
+			padding-right: 10px;
+			position: relative;
+			justify-content: flex-start;
+			column-gap: 16px;
+
+			@include is-sp {
+				column-count: unset;
+				display: flex;
+				flex-wrap: wrap;
+				padding-left: 30px;
+				// padding-right: 30px;
+				column-gap: unset;
+			}
+
+			.srvc_1-s {
+				@include is-sp {
+					width: 100%;
+				}
+			}
+
+			.arrow {
+				margin: 0px 10px 67px 10px;
+
+				@include is-sp {
+					margin: 0;
+				}
+			}
+
+			.pic-1:nth-child(1) p {
+				@include font-line(28);
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 500;
+				color: #c60000;
+				margin-bottom: 70px;
+				padding-right: 20px;
+			}
+
+			.pic-1 {
+				@include is-sp {
+					width: 47%;
+				}
+			}
+
+			.c-text {
+				@include font-line(16);
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 400;
+				padding: 10px 0;
+				height: 100px;
 			}
 
 			.arrow-1 {
@@ -209,7 +324,6 @@
 					margin-bottom: 0;
 				}
 			}
-
 		}
 	}
 
