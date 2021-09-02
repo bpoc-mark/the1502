@@ -149,7 +149,7 @@
 				padding: 60px 0 0 0;
 
 				&:last-child {
-					padding-bottom: 60px;
+					padding-bottom: 40px;
 					border-bottom: 2px dotted #000;
 				}
 			}
@@ -162,6 +162,9 @@
 				padding: 14px 0;
 				justify-content: center;
 				align-items: center;
+				font-family: 'Noto Sans JP', sans-serif;
+				font-weight: 700;
+				@include font-line(16);
 
 				.insta_img {
 					width: 10%;
@@ -200,8 +203,15 @@
 			font-weight: 700;
 			color: #c60000;
 			padding-bottom: 24px;
-
 			@include font-line(26);
+
+			br {
+				display: none;
+
+				@include is-max(480px) {
+					display: block;
+				}
+			}
 		}
 
 		&__ans {
