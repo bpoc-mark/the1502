@@ -60,7 +60,7 @@
 		}
 
 		.br-pc {
-			@include is-sp {
+			@include is-max(896px) {
 				display: none;
 			}
 		}
@@ -68,7 +68,15 @@
 		.br-sp {
 			display: none;
 
-			@include is-sp {
+			@include is-max(896px) {
+				display: block;
+			}
+		}
+
+		br[sm] {
+			display: none;
+
+			@include is-max(508px) {
 				display: block;
 			}
 		}

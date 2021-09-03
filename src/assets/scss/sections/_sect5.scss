@@ -51,9 +51,27 @@
 				@include font-line(38);
 				font-family: 'A1明朝';
 
+				br[sm1] {
+					display: block;
+
+					@include is-sp {
+						display: none;
+					}
+				}
+
+				br[sm2] {
+					display: none;
+
+					@include is-sp {
+						display: block;
+					}
+				}
+
 				@include is-sp {
 					letter-spacing: -3px;
+	
 				}
+
 			}
 
 			.c-heading-primary {

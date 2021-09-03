@@ -43,10 +43,10 @@
                     <div class="l-wrap">
                         <div class="page__info">
                             <div class="info_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/info_logo.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/header_logo_pc.png" alt="">
                             </div>
                             <div class="info_txt">
-                                <h2>魚介と言えば、<br>FUNEYAです。</h2>
+                                <h2>魚介と白ワイン<br>The1502 草津店</h2>
                             </div>
                         </div>
                     </div>

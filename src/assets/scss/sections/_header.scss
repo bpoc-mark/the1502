@@ -149,10 +149,14 @@
     }
     &__info{
         .info_logo{
-            width: 200px;
+            width: 281px;
             height: 100px;
             @include is-sp {
-                display: none;
+                width: 204px;
+                position: absolute;
+                top: 47%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
             img{
                 width: 100%;
@@ -163,10 +167,15 @@
             }
         }
         .info_txt{
-            padding-top: 350px;
-            @include is-sp {
-                padding-top: 300px;
+            padding-top: 632px;
+
+            @include is-max(826px) {
+                padding-top: 600px;
             }
+            @include is-sp {
+                padding-top: 75px;
+            }
+            
             h2{
                 @include font-line(54);
                 text-align: center;

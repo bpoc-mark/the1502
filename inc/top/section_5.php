@@ -4,8 +4,8 @@
             alt="">
         <div class="l-wrap">
             <div class="l-container c_address__heading">
-                <p class="c-heading-title c-heading-primary">ＪＲ草津駅東出口より<br>
-                    徒歩約5分と駅チカの好立地。<br>
+                <p class="c-heading-title c-heading-primary">JR草津駅東出口より<br sm1>
+                    徒歩<br sm2>約5分と駅チカの好立地。<br>
                     お仕事帰りなどにも<br>
                     お気軽にお立ち寄りください！</p>
             </div>

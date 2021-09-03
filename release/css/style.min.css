@@ -575,9 +575,9 @@ template{display:none}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(3){background-color:#009600;padding:9px}
 .page__wrapper .hero_cta__cont .item_01 .item_icn{width:22px;margin:0 10px 0 0}
 .page__wrapper .hero_cta__cont .item_01 .item_txt p{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#fff;font-size:1rem}
-.page__info .info_logo{width:200px;height:100px}
+.page__info .info_logo{width:281px;height:100px}
 .page__info .info_logo img{width:100%;margin-top:100px}
-.page__info .info_txt{padding-top:350px}
+.page__info .info_txt{padding-top:632px}
 .page__info .info_txt h2{font-size:3.375rem;text-align:center;font-family:'A1明朝';color:#fff}
 .page__info .info_txt h2 br{display:none}
 .nav__header{width:100%;background:#000;position:absolute;bottom:-60px;z-index:999}
@@ -656,6 +656,7 @@ template{display:none}
 .sect_1 .l-wrap .l-container{padding:0}
 .sect_1 .c-heading--01{font-size:2.375rem;font-family:'A1明朝';text-align:center;letter-spacing:-2px}
 .sect_1 .c-heading--01 .br-sp{display:none}
+.sect_1 .c-heading--01 br[sm]{display:none}
 .sect_1 .c-heading--white{color:#fff}
 .sect_1 .c-heading-title{font-size:1.625rem;font-family:'Noto Sans JP',sans-serif;font-weight:700;text-align:center}
 .sect_1 .c-heading-title-white{color:#fff}
@@ -678,7 +679,7 @@ template{display:none}
 .sect_2__title .c-heading-title-white{color:#fff}
 .sect_2__content{margin:0 auto;max-width:561px}
 .sect_2__content .text{font-size:1.125rem;font-family:'Noto Sans JP',sans-serif;font-weight:400;text-align:justify}
-.sect_2__content .text span{color:#ffe600}
+.sect_2__content .text span{color:#ffe600;font-weight:800}
 .sect_2__content .text-white{color:#fff}
 .sect_2__image-sp{display:none}
 .sect_3{background-image:url("../image/sect_3/overlay_background.jpg");background-repeat:no-repeat;background-size:cover;text-align:center;position:relative}
@@ -699,7 +700,8 @@ template{display:none}
 .sect_3__star-wrapper .star-content{text-align:left}
 .sect_3__star-wrapper .star-pic{width:20px;margin-top:-5px}
 .sect_3__star-wrapper .c-food{text-align:left}
-.sect_3__star-wrapper span small{border:1px solid #a2a2a2;padding:2px 5px;border-radius:5px;font-weight:700}
+.sect_3__star-wrapper span{font-family:'Yu Gothic',sans-serif}
+.sect_3__star-wrapper span small{font-family:'Noto Sans JP',sans-serif;border:1px solid #a2a2a2;padding:2px 5px;border-radius:5px;font-weight:700}
 .sect_3__star-wrapper .inline-img{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-column-gap:5px;-moz-column-gap:5px;column-gap:5px}
 .sect_3{background-image:url("../image/sect_3/overlay_background.jpg");background-repeat:no-repeat;background-size:cover;text-align:center;position:relative}
 .sect_3 .outer_container{max-width:920px;width:100%;margin:0 auto}
@@ -734,6 +736,8 @@ template{display:none}
 .sect_5 .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_5 .c_address{padding:50px 0 0 0}
 .sect_5 .c_address__heading .c-heading-title{font-size:2.375rem;font-family:'A1明朝'}
+.sect_5 .c_address__heading .c-heading-title br[sm1]{display:block}
+.sect_5 .c_address__heading .c-heading-title br[sm2]{display:none}
 .sect_5 .c_address__heading .c-heading-primary{color:#c60000}
 .sect_5 .c_address__c-description{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-column-gap:25px;-moz-column-gap:25px;column-gap:25px;position:relative}
 .sect_5 .c_address__c-description .lef-pic-pc{position:absolute;top:-258px;right:0;display:none}
@@ -861,6 +865,9 @@ template{display:none}
 .sticky{position:unset;height:102px}
 .sect_1{margin-top:0}
 .sect_5 .c_address__c-description .lef-pic-pc{top:-387px}
+}@media only screen and (max-width:896px){.sect_1 .c-heading--01 .br-pc{display:none}
+.sect_1 .c-heading--01 .br-sp{display:block}
+}@media only screen and (max-width:826px){.page__info .info_txt{padding-top:600px}
 }@media only screen and (max-width:825px){.page__info .info_txt h2 br{display:block}
 }@media only screen and (max-width:751px){.sticky{height:112px}
 .sect_5 .c_address__heading{width:100%}
@@ -1122,9 +1129,9 @@ template{display:none}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(3){width:29%}
 .page__wrapper .hero_cta__cont .item_01 .item_txt p br{display:none}
 .page__wrapper .sticky_hero{-webkit-transition:top 1s ease 0s !important;transition:top 1s ease 0s !important;position:fixed;bottom:0;z-index:999;width:100%}
-.page__info .info_logo{display:none}
+.page__info .info_logo{width:204px;position:absolute;top:47%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .page__info .info_logo img{margin-top:0}
-.page__info .info_txt{padding-top:300px}
+.page__info .info_txt{padding-top:75px}
 .page__info .info_txt h2{font-size:3.125rem;text-align:center}
 .nav__header .l-wrap{padding:18px 30px !important}
 .nav__header .p-header__left{width:21%}
@@ -1173,8 +1180,6 @@ template{display:none}
 .sect_1 .l-wrap{padding-left:30px !important;padding-right:30px !important}
 .sect_1 .l-wrap .l-container .l-content{padding:0}
 .sect_1 .c-heading--01{font-size:2.125rem;letter-spacing:-2px}
-.sect_1 .c-heading--01 .br-pc{display:none}
-.sect_1 .c-heading--01 .br-sp{display:block}
 .sect_1 .mb{margin-bottom:50px}
 .sect_1__img-clouds{display:none}
 .sect_1__img-map{display:none}
@@ -1202,6 +1207,8 @@ template{display:none}
 .sect_5{padding-top:150px;margin-top:-150px}
 .sect_5 .up-right{display:none}
 .sect_5 .l-wrap{padding-left:0 !important;padding-right:0 !important}
+.sect_5 .c_address__heading .c-heading-title br[sm1]{display:none}
+.sect_5 .c_address__heading .c-heading-title br[sm2]{display:block}
 .sect_5 .c_address__heading .c-heading-title{letter-spacing:-3px}
 .sect_5 .c_address__heading .c-heading-primary{padding-left:30px;padding-right:30px}
 .sect_5 .c_address__c-description{padding-left:30px;padding-right:30px}
@@ -1221,6 +1228,7 @@ template{display:none}
 .nav__header .p-header__middle .l-navigation .p-navigation__link:not(:last-child) a{border-right:unset}
 .sticky{height:150px}
 .sect_1{padding:50px 0 0 0}
+}@media only screen and (max-width:508px){.sect_1 .c-heading--01 br[sm]{display:block}
 }@media only screen and (max-width:500px){.sect_5 .c_address__boxes .arrow-1{top:62% !important}
 .sect_5 .c_address__boxes .arrow-2{top:15% !important}
 .sect_5 .c_address__boxes .arrow-3{top:62% !important}
