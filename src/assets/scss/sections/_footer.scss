@@ -166,17 +166,11 @@
                             }
                         }
 
-                        &:nth-of-type(3){
-                            .overlay{
-                                background: rgb(64,34,15);
-                                background: linear-gradient(90deg, rgba(64,34,15,1) 0%, rgba(64,34,15,1) 45%, rgba(64,34,15,0.22202384371717432) 87%);
-                            }
-
-                            .card_txt{
-                                p{
-                                    margin-bottom: 5px;
-                                    color: #F0D29B;
-                                    @include font-line(18, 31);
+                        &:nth-of-type(2){
+                            .bg-img {
+                                .f_image {
+                                    width: 48%;
+                                    object-fit: cover;
                                 }
                             }
                         }

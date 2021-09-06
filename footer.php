@@ -28,7 +28,7 @@
                     <div class="p-footer__inner--bottom">
                         <a class="f-card" href="">
                             <div class="bg-img">
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_1.png" alt="">
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_new_img_1.png" alt="">
                                 <div class="overlay"></div>
                                 <div class="overlay_logo">
                                     <img src="<?php echo get_template_directory_uri();?>/release/image/footer/overlay_logo.png" alt="">
@@ -38,13 +38,13 @@
                                 <p>
                                     刺身と魚飯<br>
                                     FUNEYA<br>
-                                    野洲店
+                                    草津駅前店
                                 </p>
                             </div>
                         </a>
                         <a class="f-card" href="">
                             <div class="bg-img">
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_2.png" alt="">
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_2.png" alt="" class="f_image">
                                 <div class="overlay"></div>
                                 <div class="overlay_logo">
                                     <img src="<?php echo get_template_directory_uri();?>/release/image/footer/overlay_logo.png" alt="">
@@ -60,18 +60,18 @@
                         </a>
                         <a class="f-card" href="">
                             <div class="bg-img">
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_3.png" alt="">
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_1.png" alt="">
                                 <div class="overlay"></div>
-                                <!-- <div class="overlay_logo">
+                                <div class="overlay_logo">
                                     <img src="<?php echo get_template_directory_uri();?>/release/image/footer/overlay_logo.png" alt="">
-                                </div> -->
+                                </div>
                             </div>
                             <div class="card_txt">
                                 <p>
-                                    魚介とワイン酒場
+                                    刺身と魚飯<br>
+                                    FUNEYA<br>
+                                    野洲店
                                 </p>
-                                <span></span>
-                                <img src="<?php echo get_template_directory_uri();?>/release/image/footer/footer_img_3_crd.png" alt="">
                             </div>
                         </a>
                     </div>

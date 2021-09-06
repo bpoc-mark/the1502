@@ -173,7 +173,7 @@
                 padding-top: 600px;
             }
             @include is-sp {
-                padding-top: 25px;
+                padding-top: 33px;
             }
             
             h2{
@@ -183,7 +183,7 @@
                 color: #fff;
 
                 @include is-sp {
-                    @include font-line(50);
+                    @include font-line(40);
                     text-align: center;
                 }
 

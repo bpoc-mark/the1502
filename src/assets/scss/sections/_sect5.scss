@@ -4,6 +4,10 @@
 	position: relative;
 
 	@include is-sp {
+		padding: 0 0 0 0;
+	}
+
+	@include is-sp {
 		padding-top: 150px;
 		margin-top: -150px;
 	}
@@ -92,6 +96,7 @@
 			@include is-sp {
 				padding-left: 30px;
 				padding-right: 30px;
+				padding-bottom: 50px;
 			}
 
 			.lef-pic-pc {

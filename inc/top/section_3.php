@@ -1,6 +1,8 @@
 <section class="sect_3">
     <div class="outer_container">
         <div class="l-container sect_3__inner">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/border-left.png" alt="" class="left">
+            <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/border-right.png" alt="" class="right">
             <div class="l-container bg-overlay ml-13">
                 <div class="l-content sect_3__title" id="sect_3">
                     <h3 class="c-heading-title c-heading-title-primary">お客様の声</h3>
