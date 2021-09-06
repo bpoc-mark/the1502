@@ -31,14 +31,14 @@
     <main>
         <div class="page__header">
             <?php
-            $post_7 = get_post(7);
-            $title = $post_7->the_post_thumbnail;
-            $imgurl = null;
-            if (has_post_thumbnail($title)) {
-                $imgurl = wp_get_attachment_url(get_post_thumbnail_id($title));
-            }
+                $post_7 = get_post(7);
+                $title = $post_7->the_post_thumbnail;
+                $imgurl = null;
+                if(has_post_thumbnail($title)) {
+                    $imgurl = wp_get_attachment_url( get_post_thumbnail_id($title));
+                }
             ?>
-            <div class="page__top isHome" style="background: url('<?php echo $imgurl; ?>') !important; background-size: cover !important;background-position: center center;background-repeat: no-repeat;">
+            <div class="page__top isHome" style="background: url('<?php echo $imgurl; ?>') !important; background-size: cover !important;background-position: 100% 0% !important;background-repeat: no-repeat;">
                 <div class="page__wrapper">
                     <div class="l-wrap">
                         <div class="page__info">
