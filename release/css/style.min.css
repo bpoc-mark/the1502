@@ -564,7 +564,7 @@ template{display:none}
 .page__footer .p-footer .footer_copryright p a{text-align:center;font-family:'Yu Gothic',sans-serif;font-weight:500;color:#fff;font-size:1rem}
 .page__header{position:relative}
 .page__top{position:relative}
-.page__top.isHome{position:relative;height:900px !important;background:url("http://funeyakusatsu.test/wp-content/uploads/2021/06/top_img.png") !important;background-size:cover !important;background-position:center center;background-repeat:no-repeat}
+.page__top.isHome{position:relative;height:900px !important}
 .page__wrapper .hero_cta{width:140px;position:absolute;top:0;right:0;-webkit-transition:top 1s ease 0s !important;transition:top 1s ease 0s !important}
 .page__wrapper .hero_cta__cont .item_01{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(1){background:url("../image/header/cta_bg.jpg") no-repeat 98% !important;background-size:cover;padding:30px 0 20px}
@@ -1119,7 +1119,8 @@ template{display:none}
 .page__footer .p-footer__inner--top table tbody tr td br{display:block}
 .page__footer .p-footer__inner--bottom{margin-bottom:10px}
 .page__footer .p-footer__inner--bottom .f-card{width:100%;margin-bottom:10px}
-.page__top.isHome{height:780px !important;background-position:center center !important}
+.page__footer .p-footer .footer_copryright{padding-bottom:60px}
+.page__top.isHome{height:780px !important}
 .page__wrapper .hero_cta{width:100%;top:unset;bottom:0}
 .page__wrapper .hero_cta__cont{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(1){padding:9px;width:42%}
@@ -1232,13 +1233,15 @@ template{display:none}
 }@media only screen and (max-width:500px){.sect_5 .c_address__boxes .arrow-1{top:62% !important}
 .sect_5 .c_address__boxes .arrow-2{top:15% !important}
 .sect_5 .c_address__boxes .arrow-3{top:62% !important}
-}@media only screen and (max-width:480px){.sect_11 .last_ques__title br{display:block}
+}@media only screen and (max-width:480px){.page__top.isHome{background-position:92% 0 !important}
+.sect_11 .last_ques__title br{display:block}
 }@media only screen and (max-width:479px){.nav__header .p-header__middle .l-navigation .p-navigation__link{width:45%}
 .nav__header .p-header__middle .l-navigation .p-navigation__link:nth-child(2n+1){width:55%}
 .nav__header .p-header__middle .l-navigation .p-navigation__link:not(:last-child) a{padding-right:8px}
 }@media only screen and (max-width:470px){.page__wrapper .hero_cta__cont .item_01:nth-of-type(1){width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(2){width:50%}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(3){width:50%}
+}@media only screen and (max-width:469px){.page__footer .p-footer .footer_copryright{padding-bottom:100px}
 }@media only screen and (max-width:370px){.page__footer .p-footer__inner--top table tbody tr td{padding-left:0}
 }@media only screen and (max-width:366px){.sect_5 .c_address__boxes .c-text{height:170px}
 }@media only screen and (max-width:365px){.sect_5 .c_address__boxes .arrow-1{top:60% !important}

@@ -65,11 +65,11 @@
                             </a>
                             <a class="item_01" href="https://www.instagram.com/funeya_kusatsu/" target="_blank">
                                 <div class="item_icn">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_ig.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_bag.png" alt="">
                                 </div>
                                 <div class="item_txt">
                                     <p>
-                                        Instagram
+                                    お持ち帰り
                                     </p>
                                 </div>
                             </a>

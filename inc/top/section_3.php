@@ -21,7 +21,7 @@
                             <img class="star-pic"
                                 src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/star.png" alt="">
                             <img class="star-pic"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/star.png" alt="">
+                                src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/star-white.png" alt="">
                             <span>4 か月前</span>
                         </div>
                         <p class="c-rating">美味しいワインとワインに合う料理をいただきました。</p>
@@ -73,7 +73,7 @@
                             <img class="star-pic"
                                 src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/star.png" alt="">
                             <img class="star-pic"
-                                src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/star.png" alt="">
+                                src="<?php echo get_template_directory_uri(); ?>/release/image/sect_3/star-white.png" alt="">
                             <span>5か月前</span>
                         </div>
                         <p class="c-rating">ウニパスタ<img

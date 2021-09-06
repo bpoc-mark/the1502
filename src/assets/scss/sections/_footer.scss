@@ -186,6 +186,15 @@
             .footer_copryright{
                 background: #C60000;
                 padding: 20px 0;
+
+                @include is-sp {
+                    padding-bottom: 60px;
+                }
+
+                @include is-max(469px) {
+                    padding-bottom: 100px;
+                }
+
                 p{
                     text-align: center;
                     font-family: 'Yu Gothic', sans-serif;
