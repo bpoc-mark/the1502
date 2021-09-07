@@ -601,34 +601,34 @@ template{display:none}
 .sect_10__store{text-align:center;padding:100px 0 60px 0}
 .sect_10__store .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_10__title{font-family:"ten-mincho";font-weight:400;color:#c60000;padding:0 0 30px 0;font-size:4.75rem}
-.sect_10__desc{font-family:'Noto Sans JP',sans-serif;font-weight:400;padding-bottom:80px;font-size:1.125rem;line-height:1.75}
-.sect_10 .title{font-size:26px;font-family:'Noto Sans JP',sans-serif;font-weight:700;text-align:center;color:#c60000;padding:40px 0 0 0;font-size:1.625rem}
-.sect_10 .desc{font-size:18px;font-family:'Noto Sans JP',sans-serif;font-weight:400;text-align:left;font-size:1.125rem}
+.sect_10__desc{font-family:"Noto Sans JP",sans-serif;font-weight:400;padding-bottom:80px;font-size:1.125rem;line-height:1.75}
+.sect_10 .title{font-family:"Noto Sans JP",sans-serif;font-weight:700;text-align:center;color:#c60000;padding:40px 0 0 0;font-size:1.625rem}
+.sect_10 .desc{font-size:18px;font-family:"Noto Sans JP",sans-serif;font-weight:400;text-align:left;font-size:1.125rem}
 .sect_11{text-align:center}
 .sect_11 .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_11__faq{padding:115px 0 0 0}
 .sect_11__title{font-size:38px;font-family:"A1明朝";color:#c60000;letter-spacing:25px;padding-bottom:80px;font-size:2.375rem}
 .sect_11__content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .sect_11__content .row-1{width:45.87%;text-align:left}
-.sect_11__content .row-1__ques{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#c60000;padding:0 0 0 40px;font-size:1.625rem}
-.sect_11__content .row-1__ans{font-family:'Noto Sans JP',sans-serif;font-weight:400;padding:15px 20px 57px 40px;border-bottom:2px dotted #000;font-size:1.125rem}
+.sect_11__content .row-1__ques{font-family:"Noto Sans JP",sans-serif;font-weight:700;color:#c60000;padding:0 0 0 40px;font-size:1.625rem}
+.sect_11__content .row-1__ans{font-family:"Noto Sans JP",sans-serif;font-weight:400;padding:15px 20px 57px 40px;border-bottom:2px dotted #000;font-size:1.125rem}
 .sect_11__content .row-1 .col-1{padding:60px 0 0 0}
 .sect_11__content .row-1 .col-1-pc{padding:60px 0 0 0;display:block}
 .sect_11__content .row-1 .col-1-sp{padding:60px 0 0 0;display:none}
 .sect_11__content .row-2{width:45.87%;text-align:left}
-.sect_11__content .row-2__ques{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#c60000;padding:0 0 0 40px;font-size:1.625rem}
-.sect_11__content .row-2__ans{font-family:'Noto Sans JP',sans-serif;font-weight:400;padding:15px 20px 57px 40px;border-bottom:2px dotted #000;font-size:1.125rem}
-.sect_11__content .row-2__ans1{font-family:'Noto Sans JP',sans-serif;font-weight:400;padding:15px 20px 27px 40px;font-size:1.125rem}
+.sect_11__content .row-2__ques{font-family:"Noto Sans JP",sans-serif;font-weight:700;color:#c60000;padding:0 0 0 40px;font-size:1.625rem}
+.sect_11__content .row-2__ans{font-family:"Noto Sans JP",sans-serif;font-weight:400;padding:15px 20px 57px 40px;border-bottom:2px dotted #000;font-size:1.125rem}
+.sect_11__content .row-2__ans1{font-family:"Noto Sans JP",sans-serif;font-weight:400;padding:15px 20px 27px 40px;font-size:1.125rem}
 .sect_11__content .row-2 .col-2{padding:60px 0 0 0}
 .sect_11__content .row-2 .col-2:last-child{padding-bottom:40px;border-bottom:2px dotted #000}
-.sect_11__content .row-2 .insta_btn{display:-webkit-box;display:-ms-flexbox;display:flex;background:#c60000;color:#fff;width:100%;padding:14px 0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:'Noto Sans JP',sans-serif;font-weight:700;font-size:1rem}
+.sect_11__content .row-2 .insta_btn{display:-webkit-box;display:-ms-flexbox;display:flex;background:#c60000;color:#fff;width:100%;padding:14px 0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:1rem}
 .sect_11__content .row-2 .insta_btn .insta_img{width:10%;padding-right:10px}
 .sect_11__content .row-2-sp{display:none}
 .sect_11__content .row-2-pc{display:block}
 .sect_11 .last_ques{padding:60px 0;width:65%;text-align:left;margin:0 auto}
-.sect_11 .last_ques__title{font-size:26px;font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#c60000;padding-bottom:24px;font-size:1.625rem}
+.sect_11 .last_ques__title{font-size:26px;font-family:"Noto Sans JP",sans-serif;font-weight:700;color:#c60000;padding-bottom:24px;font-size:1.625rem}
 .sect_11 .last_ques__title br{display:none}
-.sect_11 .last_ques__ans{font-size:18px;font-family:'Noto Sans JP',sans-serif;font-weight:400;font-size:1.125rem}
+.sect_11 .last_ques__ans{font-size:18px;font-family:"Noto Sans JP",sans-serif;font-weight:400;font-size:1.125rem}
 .sect_12 .contact_details{position:relative}
 .sect_12 .contact_details .bg_color::before{content:"";display:block;width:50%;height:100%;background-color:#000;position:absolute;top:0;left:0;z-index:-1}
 .sect_12 .contact_details .bg_color::after{content:"";display:block;width:50%;height:100%;background-color:#009600;position:absolute;top:0;right:0;z-index:-1}
@@ -689,20 +689,20 @@ template{display:none}
 .sect_3__inner .l-container .l-content{padding:10px 30px}
 .sect_3__inner .bg-overlay{background-color:#fff;padding:87px 0}
 .sect_3__inner .ml-13{margin-left:13px;margin-right:13px}
-.sect_3__title .c-heading-title{font-size:2.375rem;font-family:'A1明朝';letter-spacing:20px}
-.sect_3__subtitle .c-heading-sub-title{font-size:1.375rem;font-family:'Noto Sans JP',sans-serif;font-weight:700}
+.sect_3__title .c-heading-title{font-size:2.375rem;font-family:"A1明朝";letter-spacing:20px}
+.sect_3__subtitle .c-heading-sub-title{font-size:1.375rem;font-family:"Noto Sans JP",sans-serif;font-weight:700}
 .sect_3 .c-heading-title-primary{color:#c60000}
 .sect_3__star-wrapper{max-width:720px;margin:0 auto;margin-top:45px}
 .sect_3__star-wrapper .border-t{border-top:2px dotted #000}
 .sect_3__star-wrapper .border-b{border-bottom:2px dotted #000}
-.sect_3__star-wrapper .c-pad{padding:40px 0 40px 60px}
-.sect_3__star-wrapper .c-rating{font-size:1rem;text-align:left;font-family:'Noto Sans JP',sans-serif;font-weight:400;padding-bottom:7px}
+.sect_3__star-wrapper .c-pad{padding:40px 60px}
+.sect_3__star-wrapper .c-rating{font-size:1rem;text-align:left;font-family:"Noto Sans JP",sans-serif;font-weight:400;padding-bottom:7px}
 .sect_3__star-wrapper .c-rating span{font-size:1.25rem;font-weight:bold;padding:2px 4px;color:red}
 .sect_3__star-wrapper .star-content{text-align:left}
 .sect_3__star-wrapper .star-pic{width:20px;margin-top:-5px}
 .sect_3__star-wrapper .c-food{text-align:left}
-.sect_3__star-wrapper span{font-family:'Yu Gothic',sans-serif}
-.sect_3__star-wrapper span small{font-family:'Noto Sans JP',sans-serif;border:1px solid #a2a2a2;padding:2px 5px;border-radius:5px;font-weight:700}
+.sect_3__star-wrapper span{font-family:"Yu Gothic",sans-serif}
+.sect_3__star-wrapper span small{font-family:"Noto Sans JP",sans-serif;border:1px solid #a2a2a2;padding:2px 5px;border-radius:5px;font-weight:700}
 .sect_3__star-wrapper .inline-img{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-column-gap:5px;-moz-column-gap:5px;column-gap:5px}
 .sect_4 .l-insta__inner{display:-webkit-box;display:-ms-flexbox;display:flex}
 .sect_4 .l-insta .border{border:1px solid #dbdbdb}
@@ -1133,7 +1133,6 @@ template{display:none}
 .sect_10__store .l-wrap .c-card_boxes_pc .box:last-child{padding-top:0 !important}
 .sect_10__title{font-size:60px;padding:0;font-size:3.75rem}
 .sect_10__desc{text-align:left;font-size:18px;padding:0 10px;font-size:1.125rem}
-.sect_10 .title{font-size:2rem}
 .sect_11__faq{padding:75px 0 0 0}
 .sect_11__title{letter-spacing:10px;padding-bottom:60px}
 .sect_11__content{display:block;padding:0}

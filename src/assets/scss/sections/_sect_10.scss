@@ -3,9 +3,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	@include is-sp{
+	@include is-sp {
 		padding-top: 120px;
-    	margin-top: -120px;
+		margin-top: -120px;
 	}
 
 	&__store {
@@ -16,34 +16,32 @@
 			padding: 90px 20px 10px;
 		}
 
-		.l-wrap{
+		.l-wrap {
 			padding-left: 0 !important;
 			padding-right: 0 !important;
 
-			@include is-max(1091px){
+			@include is-max(1091px) {
 				padding-left: 20px !important;
 				padding-right: 20px !important;
 			}
 
-			@include is-sp{
+			@include is-sp {
 				padding-left: 10px !important;
 				padding-right: 10px !important;
 
-				.c-card_boxes_pc{
+				.c-card_boxes_pc {
 					display: block !important;
 
-					.box{
-						&:nth-child(2n+2){
+					.box {
+						&:nth-child(2n + 2) {
 							margin-left: 0 !important;
 							margin-bottom: 50px;
 						}
 
-						&:last-child{
+						&:last-child {
 							padding-top: 0 !important;
 						}
 					}
-
-
 				}
 			}
 		}
@@ -66,13 +64,13 @@
 	}
 
 	&__desc {
-		font-family: 'Noto Sans JP', sans-serif;
+		font-family: "Noto Sans JP", sans-serif;
 		font-weight: 400;
 		padding-bottom: 80px;
 
 		@include font-line(18, 31.5);
 
-		@include is-max(1091px){
+		@include is-max(1091px) {
 			padding-left: 20px !important;
 			padding-right: 20px !important;
 		}
@@ -87,22 +85,17 @@
 	}
 
 	.title {
-		font-size: 26px;
-		font-family: 'Noto Sans JP', sans-serif;
+		font-family: "Noto Sans JP", sans-serif;
 		font-weight: 700;
 		text-align: center;
 		color: #c60000;
 		padding: 40px 0 0 0;
 		@include font-line(26);
-
-		@include is-sp {
-			@include font-line(32);
-		}
 	}
 
 	.desc {
 		font-size: 18px;
-		font-family: 'Noto Sans JP', sans-serif;
+		font-family: "Noto Sans JP", sans-serif;
 		font-weight: 400;
 		text-align: left;
 

@@ -43,7 +43,6 @@
 			}
 		}
 
-
 		.l-container {
 			.l-content {
 				padding: 10px 30px;
@@ -72,10 +71,9 @@
 	}
 
 	&__title {
-
 		.c-heading-title {
 			@include font-line(38);
-			font-family: 'A1明朝';
+			font-family: "A1明朝";
 			letter-spacing: 20px;
 		}
 	}
@@ -90,7 +88,7 @@
 	&__subtitle {
 		.c-heading-sub-title {
 			@include font-line(22);
-			font-family: 'Noto Sans JP', sans-serif;
+			font-family: "Noto Sans JP", sans-serif;
 			font-weight: 700;
 
 			@include is-sp {
@@ -101,7 +99,7 @@
 	}
 
 	.c-heading-title-primary {
-		color: #C60000;
+		color: #c60000;
 	}
 
 	&__star-wrapper {
@@ -118,7 +116,7 @@
 		}
 
 		.c-pad {
-			padding: 40px 0 40px 60px;
+			padding: 40px 60px;
 
 			@include is-sp {
 				padding: 40px 0;
@@ -128,7 +126,7 @@
 		.c-rating {
 			@include font-line(16);
 			text-align: left;
-			font-family: 'Noto Sans JP', sans-serif;
+			font-family: "Noto Sans JP", sans-serif;
 			font-weight: 400;
 			padding-bottom: 7px;
 
@@ -146,7 +144,7 @@
 
 		.star-pic {
 			width: 20px;
-			margin-top: -5px
+			margin-top: -5px;
 		}
 
 		.c-food {
@@ -159,9 +157,9 @@
 		// }
 
 		span {
-			font-family: 'Yu Gothic', sans-serif;;
+			font-family: "Yu Gothic", sans-serif;
 			small {
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				border: 1px solid #a2a2a2;
 				padding: 2px 5px;
 				border-radius: 5px;
@@ -181,7 +179,6 @@
 		// 	display: block;
 		// }
 	}
-
 }
 
 // .sect_3 {

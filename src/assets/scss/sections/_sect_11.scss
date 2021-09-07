@@ -1,11 +1,11 @@
 .sect_11 {
 	text-align: center;
-	
-	.l-wrap{
+
+	.l-wrap {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 
-		@include is-max(1091px){
+		@include is-max(1091px) {
 			padding-left: 30px !important;
 			padding-right: 30px !important;
 		}
@@ -14,7 +14,7 @@
 	&__faq {
 		padding: 115px 0 0 0;
 
-		@include is-sp{
+		@include is-sp {
 			padding: 75px 0 0 0;
 		}
 	}
@@ -52,26 +52,26 @@
 			}
 
 			&__ques {
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 700;
 				color: #c60000;
 				padding: 0 0 0 40px;
 				@include font-line(26);
 
-				@include is-sp{
+				@include is-sp {
 					padding: 0;
 				}
 			}
 
 			&__ans {
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 400;
 				padding: 15px 20px 57px 40px;
 				border-bottom: 2px dotted #000;
 
 				@include font-line(18);
 
-				@include is-sp{
+				@include is-sp {
 					padding: 30px 0 50px 0;
 				}
 			}
@@ -108,39 +108,39 @@
 			}
 
 			&__ques {
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 700;
 				color: #c60000;
 				padding: 0 0 0 40px;
 
 				@include font-line(26);
 
-				@include is-sp{
+				@include is-sp {
 					padding: 0;
 				}
 			}
 
 			&__ans {
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 400;
 				padding: 15px 20px 57px 40px;
 				border-bottom: 2px dotted #000;
 
 				@include font-line(18);
 
-				@include is-sp{
+				@include is-sp {
 					padding: 30px 0 50px 0;
 				}
 			}
 
 			&__ans1 {
-				font-family: 'Noto Sans JP', sans-serif;
+				font-family: "Noto Sans JP", sans-serif;
 				font-weight: 400;
 				padding: 15px 20px 27px 40px;
 
 				@include font-line(18);
 
-				@include is-sp{
+				@include is-sp {
 					padding: 30px 0 50px 0;
 				}
 			}
@@ -162,8 +162,6 @@
 				padding: 14px 0;
 				justify-content: center;
 				align-items: center;
-				font-family: 'Noto Sans JP', sans-serif;
-				font-weight: 700;
 				@include font-line(16);
 
 				.insta_img {
@@ -199,7 +197,7 @@
 
 		&__title {
 			font-size: 26px;
-			font-family: 'Noto Sans JP', sans-serif;
+			font-family: "Noto Sans JP", sans-serif;
 			font-weight: 700;
 			color: #c60000;
 			padding-bottom: 24px;
@@ -216,7 +214,7 @@
 
 		&__ans {
 			font-size: 18px;
-			font-family: 'Noto Sans JP', sans-serif;
+			font-family: "Noto Sans JP", sans-serif;
 			font-weight: 400;
 
 			@include font-line(18);
