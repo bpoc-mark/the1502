@@ -653,13 +653,13 @@ template{display:none}
 .sect_1{margin-top:55px;padding:50px 0 0 0;background-image:url("../image/sect_1/background.png");background-repeat:no-repeat;background-size:cover;text-align:center;position:relative;overflow:hidden}
 .sect_1 .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_1 .l-wrap .l-container{padding:0}
-.sect_1 .c-heading--01{font-size:2.375rem;font-family:'A1明朝';text-align:center;letter-spacing:-2px}
+.sect_1 .c-heading--01{font-size:2.375rem;font-family:"A1明朝";text-align:center;letter-spacing:-2px}
 .sect_1 .c-heading--01 .br-sp{display:none}
 .sect_1 .c-heading--01 br[sm]{display:none}
 .sect_1 .c-heading--white{color:#fff}
-.sect_1 .c-heading-title{font-size:1.625rem;font-family:'Noto Sans JP',sans-serif;font-weight:700;text-align:center}
+.sect_1 .c-heading-title{font-size:1.625rem;font-family:"Noto Sans JP",sans-serif;font-weight:700;text-align:center}
 .sect_1 .c-heading-title-white{color:#fff}
-.sect_1 .text{font-size:1.125rem;font-family:'Noto Sans JP',sans-serif;font-weight:400;letter-spacing:-1.5px}
+.sect_1 .text{font-size:1.125rem;font-family:"Noto Sans JP",sans-serif;font-weight:400;letter-spacing:-1.5px}
 .sect_1 .text-white{color:#fff}
 .sect_1 .mt-20{margin-top:20px}
 .sect_1 .text-white{color:#fff}
@@ -1161,6 +1161,7 @@ template{display:none}
 .sect_1 .l-wrap{padding-left:30px !important;padding-right:30px !important}
 .sect_1 .l-wrap .l-container .l-content{padding:0}
 .sect_1 .c-heading--01{font-size:2.125rem;letter-spacing:-2px}
+.sect_1 .c-heading-title{font-size:1.5rem}
 .sect_1 .mb{margin-bottom:50px}
 .sect_1__img-clouds{display:none}
 .sect_1__img-map{display:none}

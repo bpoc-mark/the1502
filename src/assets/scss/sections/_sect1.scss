@@ -42,7 +42,7 @@
 
 			.l-content {
 				@include is-sp {
-					padding: 0
+					padding: 0;
 				}
 			}
 		}
@@ -50,7 +50,7 @@
 
 	.c-heading--01 {
 		@include font-line(38);
-		font-family: 'A1明朝';
+		font-family: "A1明朝";
 		text-align: center;
 		letter-spacing: -2px;
 
@@ -93,16 +93,19 @@
 	// 	}
 	// }
 
-
 	.c-heading--white {
 		color: #fff;
 	}
 
 	.c-heading-title {
 		@include font-line(26);
-		font-family: 'Noto Sans JP', sans-serif;
+		font-family: "Noto Sans JP", sans-serif;
 		font-weight: 700;
 		text-align: center;
+
+		@include is-sp {
+			@include font-line(24);
+		}
 	}
 
 	.c-heading-title-white {
@@ -111,7 +114,7 @@
 
 	.text {
 		@include font-line(18);
-		font-family: 'Noto Sans JP', sans-serif;
+		font-family: "Noto Sans JP", sans-serif;
 		font-weight: 400;
 		letter-spacing: -1.5px;
 	}
@@ -179,7 +182,7 @@
 	&__center--frame {
 		width: 47.71%;
 
-		&:nth-child(2n+2) {
+		&:nth-child(2n + 2) {
 			margin-left: 4.58%;
 			margin-bottom: 80px;
 		}
@@ -188,7 +191,7 @@
 			width: 100%;
 			margin-bottom: 45px;
 
-			&:nth-child(2n+2) {
+			&:nth-child(2n + 2) {
 				margin-left: 0;
 				margin-bottom: 45px;
 			}
@@ -214,8 +217,5 @@
 				display: block;
 			}
 		}
-
 	}
-
-
 }
