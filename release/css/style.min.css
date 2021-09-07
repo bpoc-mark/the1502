@@ -621,7 +621,7 @@ template{display:none}
 .sect_11__content .row-2__ans1{font-family:"Noto Sans JP",sans-serif;font-weight:400;padding:15px 20px 27px 40px;font-size:1.125rem}
 .sect_11__content .row-2 .col-2{padding:60px 0 0 0}
 .sect_11__content .row-2 .col-2:last-child{padding-bottom:40px;border-bottom:2px dotted #000}
-.sect_11__content .row-2 .insta_btn{display:-webkit-box;display:-ms-flexbox;display:flex;background:#c60000;color:#fff;width:100%;padding:14px 0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:noto-sans-cjk-jp,sans-serif;font-weight:700;font-size:1rem}
+.sect_11__content .row-2 .insta_btn{display:-webkit-box;display:-ms-flexbox;display:flex;background:#c60000;color:#fff;width:100%;padding:14px 0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-family:"Noto Sans JP",sans-serif;font-weight:700;font-size:1rem}
 .sect_11__content .row-2 .insta_btn .insta_img{width:10%;padding-right:10px}
 .sect_11__content .row-2-sp{display:none}
 .sect_11__content .row-2-pc{display:block}
