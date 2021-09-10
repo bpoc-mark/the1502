@@ -143,12 +143,12 @@ template{display:none}
 .c-contact__item-1{width:33.3%;background:black;padding:20px 0}
 .c-contact__item-1 .tel{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .c-contact__item-1 .tel .phone_icon{width:12%;padding-right:10px}
-.c-contact__item-1 .tel .phone_num{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#fff;font-size:2.25rem}
+.c-contact__item-1 .tel .phone_num{font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#fff;font-size:2rem}
 .c-contact__item-1 .time_ttl{font-size:16px;font-family:'Noto Sans JP',sans-serif;font-weight:400;color:#fff;font-size:1rem}
 .c-contact__item-1 .time{font-size:16px;font-family:'Noto Sans JP',sans-serif;font-weight:400;color:#fff;font-size:1rem}
 .c-contact__item-2{width:33.3%;background:url("../image/sect_7/form_bg.jpg");background-size:cover;padding:20px 0}
 .c-contact__item-2 .todo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.c-contact__item-2 .todo .list_icon{width:12%;padding-right:10px}
+.c-contact__item-2 .todo .list_icon{width:11%;padding-right:10px}
 .c-contact__item-2 .todo .todo_ttl{font-size:32px;font-family:'Noto Sans JP',sans-serif;font-weight:700;color:#fff;font-size:2rem}
 .c-contact__item-2 .todo_desc{font-family:'Noto Sans JP',sans-serif;font-weight:400;color:#fff;font-size:.9375rem}
 .c-contact__item-3{width:33.3%;background:#009600;padding:20px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center}
@@ -831,9 +831,11 @@ template{display:none}
 .c-contact__item-3 .row-1 .line_desc{font-size:1.5625rem}
 .c-contact__item-3 .row-1 .line_desc_2{font-size:1.125rem}
 .c-contact__item-3 .row-2{width:unset}
+.c-contact__item-3 .row-2 img{width:90px;height:91px}
 .sect_12 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_7 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
 .sect_9 .contact_details .bg_color .l-wrap{padding-left:0 !important;padding-right:0 !important}
+}@media only screen and (max-width:970px){.nav__header .p-header__right p{font-size:1.1875rem}
 }@media only screen and (max-width:951px){.c-card_boxes_pc .box{width:48%}
 .c-card_boxes_pc .box:not(:first-child){margin-left:0}
 .c-card_boxes_pc .box:nth-child(2n+2){margin-left:4%;margin-bottom:50px}
@@ -850,6 +852,8 @@ template{display:none}
 .sect_1 .c-heading--01 .br-sp{display:block}
 }@media only screen and (max-width:826px){.page__info .info_txt{padding-top:600px}
 }@media only screen and (max-width:825px){.page__info .info_txt h2 br{display:block}
+}@media only screen and (max-width:768px){.c-contact__item-2 .todo .list_icon{padding-bottom:2px}
+.c-contact__item-2 .todo_desc{padding-bottom:6px}
 }@media only screen and (max-width:751px){.sticky{height:112px}
 .sect_5 .c_address__heading{width:100%}
 }@media only screen and (max-width:750px){.l-container{display:block}
@@ -1203,6 +1207,7 @@ template{display:none}
 .sect_5 .c_address__boxes .arrow-1{position:absolute;left:1%;top:65%;width:3%}
 .sect_5 .c_address__boxes .arrow-2{position:absolute;right:48%;top:18%;width:3%}
 .sect_5 .c_address__boxes .arrow-3{position:absolute;bottom:32%;right:48%;width:3%;margin-bottom:0}
+}@media only screen and (max-width:640px){.sect_1 .c-heading--01{font-size:1.5625rem}
 }@media only screen and (max-width:590px){.sect_5 .c_address__boxes .arrow-1{left:2% !important}
 }@media only screen and (max-width:581px){.nav__header .p-header__middle .l-navigation .p-navigation__link{width:calc(100% / 2)}
 .nav__header .p-header__middle .l-navigation .p-navigation__link:not(:last-child) a{border-right:unset}

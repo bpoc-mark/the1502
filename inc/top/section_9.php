@@ -15,7 +15,7 @@
 
 
                         <div class="c-contact__item-2">
-                            <a href="https://www.tablecheck.com/shops/funeya-kusatsu/reserve" target="_blank">
+                            <a href="https://www.tablecheck.com/shops/gyokaitowine/reserve" target="_blank">
                                 <div class="todo">
                                     <img class="list_icon" src="<?php echo get_template_directory_uri(); ?>/release/image/sect_7/to-do-list.svg" alt="">
                                     <p class="todo_ttl">ご予約フォーム</p>
@@ -37,7 +37,7 @@
                                 <p class="line_desc_2">登録時にお得なクーポンGET！</p>
                             </div>
                             <div class="row-2">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_7/qr_code.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_7/qr_code_new.png" alt="">
                             </div>
                         </a>
                     </div>

@@ -7,9 +7,9 @@
                 alt=""> -->
             <div class="l-content sect_1__description">
                 <p class="c-heading--01 c-heading--white"> JR草津駅東口から徒歩5分。<br class="br-pc"> <br class="br-sp">
-                    毎日買い付けをし、 <br class="br-sp">産地直送で仕入れる<br sm>新鮮魚介！<br class="br-pc"><br class="br-sp">
-                    全国各地から仕入れる<br class="br-sp">新鮮な魚と<br class="br-sp">抜群の相性で <br class="br-pc">
-                    一層料理が<br class="br-sp">美味しくなる<br class="br-sp">白ワインの銘柄をご用意<br class="br-sp">しております。 <br class="br-sp">
+                    毎日買い付けをし、 <br class="br-sp">産地直送で仕入れる新鮮魚介！<br class="br-pc"><br class="br-sp">
+                    全国各地から仕入れる新鮮な魚と<br class="br-sp">抜群の相性で <br class="br-pc">
+                    一層料理が美味しくなる<br class="br-sp">白ワインの銘柄をご用意しております。
 
                 </p>
             </div>

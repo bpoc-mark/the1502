@@ -45,7 +45,7 @@
 				font-weight: 700;
 				color: #fff;
 
-				@include font-line(36);
+				@include font-line(32);
 			}
 		}
 
@@ -85,9 +85,14 @@
 			display: flex;
 			justify-content: center;
 
+
 			.list_icon {
-				width: 12%;
+				width: 11%;
 				padding-right: 10px;
+
+				@include is-max(768px) {
+					padding-bottom: 2px;
+				}
 
 				@include is-sp {
 					width: 46px;
@@ -117,6 +122,10 @@
 
 			@include is-max(990px) {
 				@include font-line(15);
+			}
+
+			@include is-max(768px) {
+				padding-bottom: 6px;
 			}
 		}
 	}
@@ -230,6 +239,11 @@
 
 			@include is-max(990px){
 				width: unset;
+
+				img {
+					width: 90px;
+					height: 91px;
+				}
 			}
 			@include is-sp {
 				width: 100%;

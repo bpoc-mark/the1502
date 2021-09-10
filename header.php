@@ -43,7 +43,7 @@
                     <div class="l-wrap">
                         <div class="page__info">
                             <div class="info_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/header_logo_pc.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/header_logo.svg" alt="">
                             </div>
                             <div class="info_txt">
                                 <h2>魚介と白ワイン<br>The1502 草津店</h2>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="hero_cta">
                         <div class="hero_cta__cont" id="hero_cta">
-                            <a class="item_01" href="https://www.tablecheck.com/shops/funeya-kusatsu/reserve" target="_blank">
+                            <a class="item_01" href="https://www.tablecheck.com/shops/gyokaitowine/reserve" target="_blank">
                                 <div class="item_icn">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_note.png" alt="">
                                 </div>
@@ -63,7 +63,7 @@
                                     </p>
                                 </div>
                             </a>
-                            <a class="item_01" href="https://www.instagram.com/funeya_kusatsu/" target="_blank">
+                            <a class="item_01" href="https://gyokaitowine.owst.jp/" target="_blank">
                                 <div class="item_icn">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_bag.png" alt="">
                                 </div>

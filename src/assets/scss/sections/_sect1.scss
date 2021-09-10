@@ -59,6 +59,10 @@
 			letter-spacing: -2px;
 		}
 
+		@include is-max(640px) {
+			@include font-line(25);
+		}
+
 		.br-pc {
 			@include is-max(896px) {
 				display: none;
