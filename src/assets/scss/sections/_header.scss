@@ -1,398 +1,396 @@
-.page{
-    &__header{
-        position: relative;
-    }
+.page {
+	&__header {
+		position: relative;
+	}
 
-    &__top{
-        position: relative;
-        &.isHome{
-            position: relative;
-            height: 900px !important;
-            // background: url("http://funeyakusatsu.test/wp-content/uploads/2021/06/top_img.png") !important;
-            // background-size: cover !important;
-            // background-position: center center;
-            // background-repeat: no-repeat;
-            @include is-sp {
-                height: 780px !important;
-                // background-position: center center !important;
-            }
-        }
-    }
-    &__wrapper{
-        .hero_cta{
-            width: 140px;
-            position: absolute;
-            top: 0;
-            right: 0;
-            transition: top 1s ease 0s !important;
+	&__top {
+		position: relative;
+		&.isHome {
+			position: relative;
+			height: 800px !important;
+			// background: url("http://funeyakusatsu.test/wp-content/uploads/2021/06/top_img.png") !important;
+			// background-size: cover !important;
+			// background-position: center center;
+			// background-repeat: no-repeat;
+			@include is-sp {
+				height: 700px !important;
+				// background-position: center center !important;
+			}
+		}
+	}
+	&__wrapper {
+		.hero_cta {
+			width: 140px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			transition: top 1s ease 0s !important;
 
-            @include is-sp {
-                width: 100%;
-                top: unset;
-                bottom: 0;
-            }
+			@include is-sp {
+				width: 100%;
+				top: unset;
+				bottom: 0;
+			}
 
-            &__cont{
-                // top: 0;
-                @include is-sp {
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-                .item_01{
-                    display: flex;
-                    flex-wrap: wrap;
+			&__cont {
+				// top: 0;
+				@include is-sp {
+					display: flex;
+					flex-wrap: wrap;
+				}
+				.item_01 {
+					display: flex;
+					flex-wrap: wrap;
 
-                    &:nth-of-type(1){
-                        background: url("../image/header/cta_bg.jpg") no-repeat 98% !important;
-                        background-size: cover;
-                        padding: 30px 0 20px;
+					&:nth-of-type(1) {
+						background: url("../image/header/cta_bg.jpg") no-repeat 98% !important;
+						background-size: cover;
+						padding: 30px 0 20px;
 
-                        @include is-sp {
-                            padding: 9px;
-                            width: 42%;
-                        }  
+						@include is-sp {
+							padding: 9px;
+							width: 42%;
+						}
 
-                        @include is-max(470px) {
-                            width: 100%;
-                            display: flex;
-                            justify-content: center;
-                        }  
+						@include is-max(470px) {
+							width: 100%;
+							display: flex;
+							justify-content: center;
+						}
 
-                        .item_icn{
-                            width: 30px;
-                            margin: 0 auto 15px;
+						.item_icn {
+							width: 30px;
+							margin: 0 auto 15px;
 
-                            @include is-sp {
-                                width: 20px;
-                                margin: 0 10px 0 0;
-                            }        
-                        }
-                        .item_txt{
-                            width: 100%;
+							@include is-sp {
+								width: 20px;
+								margin: 0 10px 0 0;
+							}
+						}
+						.item_txt {
+							width: 100%;
 
-                            @include is-sp {
-                                width: unset;
-                            }
-                            p{
-                                font-family: 'Noto Sans JP', sans-serif;
-                                font-weight: 700;
-                                text-align: center;
-                            }
-                        }
-                    }
-                    &:nth-of-type(2){
-                        background-color: #6E0000;
-                        padding: 9px;
+							@include is-sp {
+								width: unset;
+							}
+							p {
+								font-family: "Noto Sans JP", sans-serif;
+								font-weight: 700;
+								text-align: center;
+							}
+						}
+					}
+					&:nth-of-type(2) {
+						background-color: #6e0000;
+						padding: 9px;
 
-                        @include is-sp {
-                            width: 29%;
-                        }
+						@include is-sp {
+							width: 29%;
+						}
 
-                        @include is-max(470px) {
-                            width: 50%;
-                        }  
+						@include is-max(470px) {
+							width: 50%;
+						}
+					}
+					&:nth-of-type(3) {
+						background-color: #009600;
+						padding: 9px;
 
-                    }
-                    &:nth-of-type(3){
-                        background-color: #009600;
-                        padding: 9px;
+						@include is-sp {
+							width: 29%;
+						}
 
-                        @include is-sp {
-                            width: 29%;
-                        }
+						@include is-max(470px) {
+							width: 50%;
+						}
+					}
 
-                        @include is-max(470px) {
-                            width: 50%;
-                        }  
-                    }
+					.item_icn {
+						width: 22px;
+						margin: 0 10px 0 0;
+					}
 
-                    .item_icn{
-                        width: 22px;
-                        margin: 0 10px 0 0;
-                    }
+					.item_txt {
+						p {
+							font-family: "Noto Sans JP", sans-serif;
+							font-weight: 700;
+							color: #fff;
+							@include font-line(16);
 
-                    .item_txt{
-                        p{
-                            font-family: 'Noto Sans JP', sans-serif;
-                            font-weight: 700;
-                            color: #fff;
-                            @include font-line(16);
+							br {
+								@include is-sp {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.sticky_hero {
+			@include is-sp {
+				transition: top 1s ease 0s !important;
+				position: fixed;
+				bottom: 0;
+				z-index: 999;
+				width: 100%;
+			}
 
-                            br{
-                                @include is-sp {
-                                    display: none;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .sticky_hero {
-            @include is-sp{
-                transition: top 1s ease 0s !important;
-                position: fixed;
-                bottom: 0;
-                z-index: 999;
-                width: 100%;
-            }
-        
-            // @include is-max(751px){
-            //     height: 112px;
-            // }
-        
-            // @include is-max(581px){
-            //     top: 150px !important;
-            // }
-        }
-        
-    }
-    &__info{
-        .info_logo{
-            width: 281px;
-            height: 100px;
-            @include is-sp {
-                width: 204px;
-                position: absolute;
-                top: 38%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            img{
-                width: 100%;
-                margin-top: 100px;
-                @include is-sp {
-                    margin-top: 0;
-                }
-            }
-        }
-        .info_txt{
-            padding-top: 632px;
+			// @include is-max(751px){
+			//     height: 112px;
+			// }
 
-            @include is-max(826px) {
-                padding-top: 600px;
-            }
-            @include is-sp {
-                padding-top: 33px;
-            }
-            
-            h2{
-                @include font-line(54);
-                text-align: center;
-                font-family: 'A1明朝';
-                color: #fff;
+			// @include is-max(581px){
+			//     top: 150px !important;
+			// }
+		}
+	}
+	&__info {
+		.info_logo {
+			width: 281px;
+			height: 100px;
+			@include is-sp {
+				width: 204px;
+				position: absolute;
+				top: 38%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			img {
+				width: 100%;
+				margin-top: 100px;
+				@include is-sp {
+					margin-top: 0;
+				}
+			}
+		}
+		.info_txt {
+			padding-top: 550px;
 
-                @include is-sp {
-                    @include font-line(40);
-                    text-align: center;
-                }
+			@include is-max(826px) {
+				padding-top: 500px;
+			}
+			@include is-sp {
+				padding-top: 33px;
+			}
 
-                br{
-                    display: none;
-                    @include is-max(825px){
-                        display: block;
-                    }
-                }
-            }
-        }
-    }
+			h2 {
+				@include font-line(54);
+				text-align: center;
+				font-family: "A1明朝";
+				color: #fff;
+
+				@include is-sp {
+					@include font-line(40);
+					text-align: center;
+				}
+
+				br {
+					display: none;
+					@include is-max(825px) {
+						display: block;
+					}
+				}
+			}
+		}
+	}
 }
 
-.nav{
-    &__header{
-        width: 100%;
-        background: #000;
-        position: absolute;
-        bottom: -60px;
-        z-index: 999;
+.nav {
+	&__header {
+		width: 100%;
+		background: #000;
+		position: absolute;
+		bottom: -60px;
+		z-index: 999;
 
-        @include is-max(931px){
-            position: relative;
-            bottom: 0;
-        }
+		@include is-max(931px) {
+			position: relative;
+			bottom: 0;
+		}
 
-        // @include is-sp{
-        //     bottom: -111px;
-        // }
+		// @include is-sp{
+		//     bottom: -111px;
+		// }
 
-        // @include is-max(581px){
-        //     bottom: -150px;
-        // }
+		// @include is-max(581px){
+		//     bottom: -150px;
+		// }
 
-        .l-wrap{
-            padding: 13px 40px !important;
-            @include is-sp {
-                padding: 18px 30px !important;
-            }
-        }
-        .p-header{
-            background-color: red;
-            &--flex{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            }
-            &__left{
-                width: 120px;
-                margin-right: 20px;
-                @include is-sp {
-                    width: 21%;
-                }
-                a{
-                    h1{
-                        display: flex;
-                        align-items: center;
-                        img{
-                            width: 100%;
-                            &:nth-of-type(2){
-                                display: none;
-                                @include is-sp {
-                                    display: block;
-                                }
-                            }
+		.l-wrap {
+			padding: 13px 40px !important;
+			@include is-sp {
+				padding: 18px 30px !important;
+			}
+		}
+		.p-header {
+			background-color: red;
+			&--flex {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			&__left {
+				width: 120px;
+				margin-right: 20px;
+				@include is-sp {
+					width: 21%;
+				}
+				a {
+					h1 {
+						display: flex;
+						align-items: center;
+						img {
+							width: 100%;
+							&:nth-of-type(2) {
+								display: none;
+								@include is-sp {
+									display: block;
+								}
+							}
 
-                            @include is-sp {
-                                &:nth-of-type(1){
-                                    display: none;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &__middle{
-                width: 610px;
-                @include is-max(931px){
-                    width: 400px;
-                }
-                @include is-sp {
-                    width: 74%;
-                }
-                .l-navigation{
-                    padding: 0 !important;
-                    display: unset;
-                    .p-navigation{
-                        margin: unset;
-                        justify-content: space-between;
-                        flex-wrap: wrap;
+							@include is-sp {
+								&:nth-of-type(1) {
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			&__middle {
+				width: 610px;
+				@include is-max(931px) {
+					width: 400px;
+				}
+				@include is-sp {
+					width: 74%;
+				}
+				.l-navigation {
+					padding: 0 !important;
+					display: unset;
+					.p-navigation {
+						margin: unset;
+						justify-content: space-between;
+						flex-wrap: wrap;
 
-                        @include is-sp {
-                            justify-content: flex-start;
-                        }
-                        &__link{
-                            margin: unset;
-                            text-align: center;
-                            position: relative;
+						@include is-sp {
+							justify-content: flex-start;
+						}
+						&__link {
+							margin: unset;
+							text-align: center;
+							position: relative;
 
-                            @include is-sp {
-                                text-align: left;
-                            }
+							@include is-sp {
+								text-align: left;
+							}
 
-                            @include is-max(931px){
-                                width: calc(100% / 3);
-                                border-right: 1px solid #fff;
-                                margin-bottom: 10px;
-                            }
+							@include is-max(931px) {
+								width: calc(100% / 3);
+								border-right: 1px solid #fff;
+								margin-bottom: 10px;
+							}
 
-                            @include is-max(581px){
-                                width: calc(100% / 2);
-                            }
-                            
-                            @include is-max(479px) {
-                                width: 45%;
+							@include is-max(581px) {
+								width: calc(100% / 2);
+							}
 
-                                &:nth-child(2n+1){
-                                    width: 55%;
-                                }
-                            }  
-                            
-                            a{
-                                font-family: 'Yu Gothic', sans-serif;
-                                font-weight: 700;
-                                color: #fff;
-                                @include font-line(16);
+							@include is-max(479px) {
+								width: 45%;
 
-                                @include is-sp {
-                                    padding-right: 15px;
-                                    padding-left: 15px;
-                                }
+								&:nth-child(2n + 1) {
+									width: 55%;
+								}
+							}
 
-                                // @include is-max(479px) {
-                                //     padding-left: 0;
-                                // } 
-                            }
+							a {
+								font-family: "Yu Gothic", sans-serif;
+								font-weight: 700;
+								color: #fff;
+								@include font-line(16);
 
-                            &:not(:last-child){
-                                a{
-                                    border-right: 1px solid #fff;
-                                    padding-right: 15px;
+								@include is-sp {
+									padding-right: 15px;
+									padding-left: 15px;
+								}
 
-                                    @include is-max(931px){
-                                        border-right: none;
-                                    }
+								// @include is-max(479px) {
+								//     padding-left: 0;
+								// }
+							}
 
-                                    @include is-max(581px){
-                                        border-right: unset;
-                                    }
+							&:not(:last-child) {
+								a {
+									border-right: 1px solid #fff;
+									padding-right: 15px;
 
-                                    @include is-sp {
-                                        padding-right: 10px;
-                                    }
+									@include is-max(931px) {
+										border-right: none;
+									}
 
-                                    @include is-max(479px) {
-                                        padding-right: 8px;
-                                    } 
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            &__right{
-                width: 200px;
-                @include is-sp {
-                    display: none;
-                }
-                p{
-                    text-align: right;
-                    font-family: 'Yu Gothic', sans-serif;
-                    font-weight: 700;
-                    color: #fff;
-                    @include font-line(21);
+									@include is-max(581px) {
+										border-right: unset;
+									}
 
-                    @include is-max(970px) {
-                        @include font-line(19);
-                    }
+									@include is-sp {
+										padding-right: 10px;
+									}
 
-                    span{
-                        font-family: 'Yu Gothic', sans-serif;
-                        font-weight: 700;
-                        color: #fff;
-                        @include font-line(14);
-                    }
-                }
-            }
-        }
-    }  
+									@include is-max(479px) {
+										padding-right: 8px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			&__right {
+				width: 200px;
+				@include is-sp {
+					display: none;
+				}
+				p {
+					text-align: right;
+					font-family: "Yu Gothic", sans-serif;
+					font-weight: 700;
+					color: #fff;
+					@include font-line(21);
+
+					@include is-max(970px) {
+						@include font-line(19);
+					}
+
+					span {
+						font-family: "Yu Gothic", sans-serif;
+						font-weight: 700;
+						color: #fff;
+						@include font-line(14);
+					}
+				}
+			}
+		}
+	}
 }
 
 .sticky {
-    position: fixed;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    height: 63px;
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 63px;
 
-    @include is-max(931px){
-        position: unset;
-        height: 102px;
-    }
+	@include is-max(931px) {
+		position: unset;
+		height: 102px;
+	}
 
-    @include is-max(751px){
-        height: 112px;
-    }
+	@include is-max(751px) {
+		height: 112px;
+	}
 
-    @include is-max(581px){
-        height: 150px;
-    }
+	@include is-max(581px) {
+		height: 150px;
+	}
 }
