@@ -563,7 +563,7 @@ template{display:none}
 .page__footer .p-footer .footer_copryright p a{text-align:center;font-family:'Yu Gothic',sans-serif;font-weight:500;color:#fff;font-size:1rem}
 .page__header{position:relative}
 .page__top{position:relative}
-.page__top.isHome{position:relative;height:800px !important}
+.page__top.isHome{position:relative;height:700px !important}
 .page__wrapper .hero_cta{width:140px;position:absolute;top:0;right:0;-webkit-transition:top 1s ease 0s !important;transition:top 1s ease 0s !important}
 .page__wrapper .hero_cta__cont .item_01{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .page__wrapper .hero_cta__cont .item_01:nth-of-type(1){background:url("../image/header/cta_bg.jpg") no-repeat 98% !important;background-size:cover;padding:30px 0 20px}
@@ -576,7 +576,7 @@ template{display:none}
 .page__wrapper .hero_cta__cont .item_01 .item_txt p{font-family:"Noto Sans JP",sans-serif;font-weight:700;color:#fff;font-size:1rem}
 .page__info .info_logo{width:281px;height:100px}
 .page__info .info_logo img{width:100%;margin-top:100px}
-.page__info .info_txt{padding-top:550px}
+.page__info .info_txt{padding-top:450px}
 .page__info .info_txt h2{font-size:3.375rem;text-align:center;font-family:"A1明朝";color:#fff}
 .page__info .info_txt h2 br{display:none}
 .nav__header{width:100%;background:#000;position:absolute;bottom:-60px;z-index:999}
@@ -850,7 +850,7 @@ template{display:none}
 .sect_5 .c_address__c-description .lef-pic-pc{top:-387px}
 }@media only screen and (max-width:896px){.sect_1 .c-heading--01 .br-pc{display:none}
 .sect_1 .c-heading--01 .br-sp{display:block}
-}@media only screen and (max-width:826px){.page__info .info_txt{padding-top:500px}
+}@media only screen and (max-width:826px){.page__info .info_txt{padding-top:350px}
 }@media only screen and (max-width:825px){.page__info .info_txt h2 br{display:block}
 }@media only screen and (max-width:768px){.c-contact__item-2 .todo .list_icon{padding-bottom:2px}
 .c-contact__item-2 .todo_desc{padding-bottom:6px}

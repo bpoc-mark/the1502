@@ -7,7 +7,7 @@
 		position: relative;
 		&.isHome {
 			position: relative;
-			height: 800px !important;
+			height: 700px !important;
 			// background: url("http://funeyakusatsu.test/wp-content/uploads/2021/06/top_img.png") !important;
 			// background-size: cover !important;
 			// background-position: center center;
@@ -165,10 +165,10 @@
 			}
 		}
 		.info_txt {
-			padding-top: 550px;
+			padding-top: 450px;
 
 			@include is-max(826px) {
-				padding-top: 500px;
+				padding-top: 350px;
 			}
 			@include is-sp {
 				padding-top: 33px;
