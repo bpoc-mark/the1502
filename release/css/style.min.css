@@ -579,7 +579,7 @@ template{display:none}
 .page__info .info_txt{padding-top:450px}
 .page__info .info_txt h2{font-size:3.375rem;text-align:center;font-family:"A1明朝";color:#fff}
 .page__info .info_txt h2 br{display:none}
-.nav__header{width:100%;background:#000;position:absolute;bottom:-60px;z-index:999}
+.nav__header{width:100%;background:#000;position:absolute;bottom:-58px;z-index:999}
 .nav__header .l-wrap{padding:13px 40px !important}
 .nav__header .p-header{background-color:red}
 .nav__header .p-header--flex{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
