@@ -73,7 +73,7 @@
                                     </p>
                                 </div>
                             </a>
-                            <a class="item_01" href="https://lin.ee/Fw3N2ow" target="_blank">
+                            <a class="item_01" href="https:line.me/R/ti/p/%40466gwdcn" target="_blank">
                                 <div class="item_icn">
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/header/icon_line.png" alt="">
                                 </div>
