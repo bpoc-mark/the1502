@@ -27,7 +27,7 @@
 
 
 
-                        <a class="c-contact__item-3" href="https:line.me/R/ti/p/%40466gwdcn" target="_blank">
+                        <a class="c-contact__item-3" href="https://line.me/R/ti/p/%40466gwdcn" target="_blank">
                             <div class="row-1">
                                 <div class="line-flex"> 
                                     <img src="<?php echo get_template_directory_uri(); ?>/release/image/sect_7/line_img.png" alt="">
