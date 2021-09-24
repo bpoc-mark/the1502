@@ -344,7 +344,9 @@
 				}
 			}
 			&__right {
-				width: 200px;
+				max-width: 200px;
+				white-space: nowrap;
+				padding-left: 20px;
 				@include is-sp {
 					display: none;
 				}
