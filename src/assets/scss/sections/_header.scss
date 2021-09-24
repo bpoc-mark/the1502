@@ -353,6 +353,7 @@
 					font-family: "Yu Gothic", sans-serif;
 					font-weight: 700;
 					color: #fff;
+					white-space: nowrap;
 					@include font-line(21);
 
 					@include is-max(970px) {
