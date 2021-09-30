@@ -90,6 +90,8 @@
 
 						@include is-max(470px) {
 							width: 50%;
+							display: flex;
+							justify-content: center;
 						}
 					}
 					&:nth-of-type(3) {
@@ -102,6 +104,8 @@
 
 						@include is-max(470px) {
 							width: 50%;
+							display: flex;
+							justify-content: center;
 						}
 					}
 

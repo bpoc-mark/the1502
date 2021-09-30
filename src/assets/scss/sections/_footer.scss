@@ -1,210 +1,213 @@
-.page{
-    &__footer{
-        .p-footer{
-            background-color: #fff;
-            padding-top: 150px !important;
+.page {
+	&__footer {
+		.p-footer {
+			background-color: #fff;
+			padding-top: 150px !important;
 
-            @include is-sp {
-                padding-top: 220px !important;
-                margin-top: -80px;
-            }
+			@include is-sp {
+				padding-top: 220px !important;
+				margin-top: -80px;
+			}
 
-            .l-wrap{
-                padding-left: 0 !important;
-                padding-right: 0 !important;
+			.l-wrap {
+				padding-left: 0 !important;
+				padding-right: 0 !important;
 
-                @include is-max(1091px){
-                    padding-left: 20px !important;
-                    padding-right: 20px !important;
-                }
+				@include is-max(1091px) {
+					padding-left: 20px !important;
+					padding-right: 20px !important;
+				}
 
-                @include is-sp {
-                    padding-left: 30px !important;
-                    padding-right: 30px !important;
-                }
-            }
+				@include is-sp {
+					padding-left: 30px !important;
+					padding-right: 30px !important;
+				}
+			}
 
-            &__inner{
-                
-                &--top{
-                    width: 100%;
-                    
-                    .footer_title{
-                        text-align: center;
-                        font-family: 'A1明朝';
-                        letter-spacing: 0.6em;
-                        color: #C60000;
-                        @include font-line(38);
-                        margin-bottom: 80px;
+			&__inner {
+				&--top {
+					width: 100%;
 
-                        @include is-sp {
-                            margin-bottom: 60px;
-                        }
-                    }
-                    .footer_des{
-                        text-align: center;
-                        font-family: 'Noto Sans JP', sans-serif;
-                        font-weight: 400;
-                        color: #000;
-                        @include font-line(18, 31);
-                        margin-bottom: 60px;
-                    }
+					.footer_title {
+						text-align: center;
+						font-family: "A1明朝";
+						letter-spacing: 0.6em;
+						color: #c60000;
+						@include font-line(38);
+						margin-bottom: 80px;
 
-                    table{
-                        width: 500px;
-                        margin: 0 auto 100px;
+						@include is-sp {
+							margin-bottom: 60px;
+						}
+					}
+					.footer_des {
+						text-align: center;
+						font-family: "Noto Sans JP", sans-serif;
+						font-weight: 400;
+						color: #000;
+						@include font-line(18, 31);
+						margin-bottom: 60px;
+					}
 
-                        @include is-sp {
-                            width: 290px;
-                            margin: 0 auto 60px;
-                        }
+					table {
+						width: 500px;
+						margin: 0 auto 100px;
 
-                        tbody{
-                            tr{
-                                
-                                th{
-                                    width: 15%;
-                                    text-align: justify;
-                                    text-justify: inter-word;
-                                    font-family: 'Noto Sans JP', sans-serif;
-				                    font-weight: 500;
-                                    color: #C60000;
-                                    @include font-line(16);
-                                    vertical-align: top;
+						@include is-sp {
+							width: 290px;
+							margin: 0 auto 60px;
+						}
 
-                                    @include is-sp {
-                                        width: 20%;
-                                    }
-                                }
-                                td{
-                                    width: 85%;
-                                    text-align: left;
-                                    font-family: 'Noto Sans JP', sans-serif;
-				                    font-weight: 400;
-                                    color: #000;
-                                    @include font-line(18);
-                                    // padding-left: 15px;
+						tbody {
+							tr {
+								th {
+									width: 15%;
+									text-align: justify;
+									text-justify: inter-word;
+									font-family: "Noto Sans JP", sans-serif;
+									font-weight: 500;
+									color: #c60000;
+									@include font-line(16);
+									vertical-align: top;
 
-                                    br{
-                                        display: none;
+									@include is-sp {
+										width: 20%;
+									}
+								}
+								td {
+									width: 85%;
+									text-align: left;
+									font-family: "Noto Sans JP", sans-serif;
+									font-weight: 400;
+									color: #000;
+									@include font-line(18);
+									// padding-left: 15px;
 
-                                        @include is-sp {
-                                            display: block;
-                                        }
-                                    }
+									br {
+										display: none;
 
-                                    @include is-sp {
-                                        // width: 80%;
-                                    }
+										@include is-sp {
+											display: block;
+										}
+									}
 
-                                    @include is-max(370px) {
-                                        padding-left: 0;
-                                    } 
-                                }
-                            }
-                        }
-                    }
-                }
+									@include is-sp {
+										// width: 80%;
+									}
 
-                &--bottom{
-                    width: 100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-between;
-                    margin-bottom: 75px;
+									@include is-max(370px) {
+										padding-left: 0;
+									}
+								}
+							}
+						}
+					}
+				}
 
-                    @include is-sp {
-                        margin-bottom: 10px;
-                    }
+				&--bottom {
+					width: 100%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					margin-bottom: 75px;
 
-                    .f-card{
-                        width: 32.29%;
-                        border: 2px solid #820000;
-                        background-color: #820000;
-                        height: 120px;
-                        position: relative;
+					@include is-sp {
+						margin-bottom: 10px;
+					}
 
-                        @include is-sp {
-                            width: 100%;
-                            margin-bottom: 10px;
-                        }
+					.f-card {
+						width: 32.29%;
+						border: 2px solid #820000;
+						background-color: #820000;
+						height: 120px;
+						position: relative;
 
-                        .bg-img{
-                            width: 100%;
-                            height: 100%;
-                            text-align: right;
-                            position: relative;
-                            .overlay{
-                                width: 100%;
-                                height: 100%;
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                z-index: 1;
-                                background: rgb(181,0,0);
-                                background: linear-gradient(90deg, rgba(181,0,0,1) 0%, rgba(181,0,0,1) 45%, rgba(181,0,0,0) 87%);
-                            }
-                            .overlay_logo{
-                                width: 200px;
-                                position: absolute;
-                                top: 15px;
-                                left: 15px;
-                                z-index: 2;
-                            }
-                        }
-                        .card_txt{
-                            position: absolute;
-                            top: 10px;
-                            left: 15px;
-                            z-index: 3;
+						@include is-sp {
+							width: 100%;
+							margin-bottom: 10px;
+						}
 
-                            p{
-                                text-align: left;
-                                font-family: 'A1明朝';
-                                color: #fff;
-                                @include font-line(24, 31);
-                            }
-                        }
+						.bg-img {
+							width: 100%;
+							height: 100%;
+							text-align: right;
+							position: relative;
+							.overlay {
+								width: 100%;
+								height: 100%;
+								position: absolute;
+								top: 0;
+								left: 0;
+								z-index: 1;
+								background: rgb(181, 0, 0);
+								background: linear-gradient(
+									90deg,
+									rgba(181, 0, 0, 1) 0%,
+									rgba(181, 0, 0, 1) 45%,
+									rgba(181, 0, 0, 0) 87%
+								);
+							}
+							.overlay_logo {
+								width: 200px;
+								position: absolute;
+								top: 15px;
+								left: 15px;
+								z-index: 2;
+							}
+						}
+						.card_txt {
+							position: absolute;
+							top: 10px;
+							left: 15px;
+							z-index: 3;
 
-                        &:nth-of-type(2){
-                            .bg-img {
-                                .f_image {
-                                    width: 48%;
-                                    object-fit: cover;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            .footer_copryright{
-                background: #C60000;
-                padding: 20px 0;
+							p {
+								text-align: left;
+								font-family: "A1明朝";
+								color: #fff;
+								@include font-line(24, 31);
+							}
+						}
 
-                @include is-sp {
-                    padding-bottom: 60px;
-                }
+						&:nth-of-type(2) {
+							.bg-img {
+								.f_image {
+									width: 48%;
+									object-fit: cover;
+								}
+							}
+						}
+					}
+				}
+			}
+			.footer_copryright {
+				background: #c60000;
+				padding: 20px 0;
 
-                @include is-max(469px) {
-                    padding-bottom: 100px;
-                }
+				@include is-sp {
+					padding: 20px 0 70px;
+				}
 
-                p{
-                    text-align: center;
-                    font-family: 'Yu Gothic', sans-serif;
-                    font-weight: 500;
-                    color: #fff;
-                    @include font-line(16);
+				@include is-max(470px) {
+					padding: 20px 0 110px;
+				}
 
-                    a{
-                        text-align: center;
-                        font-family: 'Yu Gothic', sans-serif;
-                        font-weight: 500;
-                        color: #fff;
-                        @include font-line(16);
-                    }
-                }
-            }
-        }
-    }
+				p {
+					text-align: center;
+					font-family: "Yu Gothic", sans-serif;
+					font-weight: 600;
+					color: #fff;
+					@include font-line(16);
+
+					a {
+						text-align: center;
+						font-family: "Yu Gothic", sans-serif;
+						font-weight: 600;
+						color: #fff;
+						@include font-line(16);
+					}
+				}
+			}
+		}
+	}
 }
