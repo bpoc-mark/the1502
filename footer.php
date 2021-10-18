@@ -78,7 +78,7 @@
                 </div>
 
                 <div class="footer_copryright">
-                    <p>©株式会社FUNEYA By <a href="https://jeengross.jp/" target="_blank">株式会社ジーングロス</a></p>
+                    <p>©株式会社FUNEYA<a href="https://jeengross.jp/" target="_blank" style="display: none;">By 株式会社ジーングロス</a></p>
                 </div>
             </footer>
         </div>
